@@ -1,27 +1,35 @@
-# Detailed Notes: Excel Data Cleaning and Analysis Process
+# Excel Data Cleaning and Analysis Process - Detailed Notes: Home Sales Dataset
 
 **Dashinee Parmanum**  
 *Self-directed portfolio project in Statistics and Data Analysis — Summer 2025*
 
 ---
-
 ## 1. Original Data and Setup
-
-- The dataset `homes.csv` contains 50 home listings with columns for:
-  - Home ID, Selling Price, Asking Price, Price Difference, Expensive flag, Living Space, Rooms, Bedrooms, Bathrooms, Age, Acreage, Taxes, and tax rate.
-
-- Opened the CSV in Excel and set up a worksheet named `data`.
-
-- Created a Home ID column (leftmost) to identify homes and enabled freeze panes:
-  - **Freeze top row** to keep headers visible.
-  - **Freeze first column** (Home ID) to keep IDs visible while scrolling.
+- "homes.csv" contains 50 home listings
+- Converted the .csv file to .xlsx and rename sheet *data*.
+- Created a *home ID* column (leftmost) to identify homes (numebr 1-50).
+- Froze the top row to keep headers visible and the first column to keep home IDs visible while scrolling.
+- Columns:
+    A = home ID - added
+    B = Sell (selling price)
+    C = "List" (asking price)
+    D = Price difference - added
+    E = Is Expensive? (> 150) - added
+    F = "Living" (living space)
+    G = "Rooms" (rooms)
+    H = "Beds" (bedrooms)
+    I = “Baths” (bathrooms)
+    J = “Age” (age)
+    K = “Acres” (acreage)
+    L = “Taxes” (taxes)
+    M = 0.05 tax rate - added
+    N = Bi * 0.05 - checking M - added
 
 ---
-
 ## 2. Data Cleaning and Formulas
-
-- **Price Difference:** Added column `Price Difference` with formula:  
-  `=Sell - Asking Price` (e.g., `=B2 - C2`).
+- Created column *Price Difference* with formula: Di =Ci-Bi for i = 2-51
+- Created column *Is Expensive? (> 150)?* with formula: =IF(Bi>150, "yes", "no") for i = 2-51
+- Calculated total selling price with formula: =SUM(B2:B51) 
 
 - **Is Expensive?:** Created a logical column using IF to flag homes as expensive:  
   `=IF(Sell > 150000, "Yes", "No")` (adjusted threshold for flagging).
@@ -35,7 +43,6 @@
     `=COUNTIF(J2:J51, "<50")`
 
 ---
-
 ## 3. Conditional Formatting and Data Validation
 
 - Applied **color scales** to Selling Price for visual differentiation.
@@ -50,7 +57,6 @@
 - Applied **data validation** on Bedrooms column to restrict input to whole numbers between 1 and 10.
 
 ---
-
 ## 4. Absolute and Relative References
 
 - Placed a fixed tax rate of 5% in a cell (`M52 = 0.05`).
@@ -63,7 +69,6 @@
 ---
 
 ## 5. Sheet Protection
-
 - Unlocked the Price Difference column to allow editing.
 
 - Protected the sheet with a password to prevent accidental edits on locked cells.
@@ -71,7 +76,6 @@
 - Tested protection by trying to edit both locked and unlocked cells — worked as expected.
 
 ---
-
 ## 6. Lookup Functions
 
 - Created a small agent lookup table with Home ID and Agent Name.
@@ -82,7 +86,6 @@
 - Ensured exact matches to avoid errors.
 
 ---
-
 ## 7. Pivot Tables
 
 - Created pivot tables for summarized insights:
@@ -99,7 +102,6 @@
 - Applied filters on Bathrooms to focus on homes with 3 or 4 baths in some views.
 
 ---
-
 ## 8. Charts
 
 - Made charts for visual analysis:
@@ -113,7 +115,6 @@
 - Customized chart titles, axis labels, and legend for clarity.
 
 ---
-
 ## 9. Dashboard Creation
 
 - Created a new sheet named `Dashboard`.
@@ -125,7 +126,6 @@
 - Connected slicers to multiple pivot tables for synchronized filtering.
 
 ---
-
 ## 10. Key Insights
 
 - Homes with **6 bedrooms** have the highest average selling prices.
@@ -133,7 +133,6 @@
 - There is a clear **positive correlation** between living space and selling price, consistent with market expectations.
 
 ---
-
 ## 11. Challenges and Solutions
 
 - Grouping ages into bins required using Pivot Table Group feature.
@@ -143,7 +142,6 @@
 - Locked/unlocked cell protection required trial and error to allow edits only where needed.
 
 ---
-
 ## 12. Final File
 
 - All data, analysis, pivot tables, charts, and dashboard are saved in the file **home.xlsx**.
