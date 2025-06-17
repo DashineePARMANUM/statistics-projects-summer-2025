@@ -9,14 +9,21 @@ This report documents the analysis of a home sales dataset using Microsoft Excel
 
 ---
 ## 2. Data Description
-The dataset contains information on 50 homes, including sale and asking prices, physical characteristics, age, and taxation. The data was sourced from the CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html.
+The dataset contains information on 50 homes, including sale and asking prices, physical characteristics, age, and taxation. The data was sourced from the CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html (homes.csv) 
+GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt.
 
 ---
 ## 3. Methodology
-The cleaning process involved calculating price differences and categorizing homes as “expensive” based on price thresholds. Key Excel features utilized included conditional formatting to highlight data patterns, logical formulas (IF, SUMIF, COUNTIF) to aggregate information, and lookup functions (VLOOKUP) for enriching data with agent information.
-
-Pivot tables summarized average prices by bedrooms and taxes by home age, complemented by charts for visual trend identification. An interactive dashboard was built to enable dynamic filtering of results.
-
+Before analysis, I calculated price differences and categorized homes as “expensive” based on price thresholds. Key Excel features utilized included conditional formatting to highlight data patterns, logical formulas (IF, SUMIF, COUNTIF) to aggregate information, and lookup functions (VLOOKUP) for enriching data with agent information.
+Pivot tables:
+- summarized average prices by bedrooms - Table 1.1 in pivot table sheet
+- summarized total taxes by age groups - Table 2.1 in pivot table sheet
+- summarized total selling price by age group - Table 3.1 in pivot table sheet
+Charts: 
+- bar chart of average selling price by numebr of bedrooms (derived from Table 1.1) - Chart 1.1 in chart sheet
+- scatter plot of living space vs selling Price (derived directly from Sell and Living Space columns of data sheet) - chart 2.1 in chart sheet
+- line chart showing total Selling Price across age groups (derived from Table 3.1) - Chart 3.1 in chart sheet
+ 
 ---
 ## 4. Key Insights
 - Six-bedroom homes tend to command the highest average selling prices.
