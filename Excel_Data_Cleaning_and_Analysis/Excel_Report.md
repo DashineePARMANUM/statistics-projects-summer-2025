@@ -34,8 +34,8 @@ Dashboard:
 
 ---
 ## 4. Key Insights
-- Six-bedroom homes tend to command the highest average selling prices as seen in Table 1.2  
-- A positive correlation exists between living space and selling price, confirming intuitive real estate market trends as seen in Chart 3.2  
+- Six-bedroom homes tend to command the highest average selling prices as seen in Table 1.2 in sheet *dashboard*
+- A positive correlation exists between living space and selling price, confirming intuitive real estate market trends as seen in Chart 3.2  in sheet *dashboard*
 
 ---
 ## 5. Reflection and Learning Outcomes
