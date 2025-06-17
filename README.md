@@ -19,6 +19,7 @@ This Summer, I am going to complete multiple projects that demonstrate data clea
 
 Each folder contains:
 - A project description
+- Original/Raw datasets
 - Cleaned datasets
 - Code/scripts used
 - Visualizations and reports
