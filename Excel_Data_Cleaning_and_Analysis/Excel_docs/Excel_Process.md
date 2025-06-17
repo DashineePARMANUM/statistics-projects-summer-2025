@@ -26,13 +26,12 @@
     N = Bi * 0.05 - checking M - added
 
 ---
-## 2. Data Cleaning
+## 2. Data Cleaning and some Calculations
 - Created column *Price Difference* with formula: Di =Ci-Bi for i = 2-51
 - Created column *Is Expensive? (> 150)?* with formula: =IF(Bi>150, "yes", "no") for i = 2-51
 - Calculated total selling price with formula: =SUM(B2:B51) 
 - Calculated average living space with formula: =AVERAGE(F2:F51)
-
-
+- Calculated total selling price for home with more than 4 bedrooms with formual: =SUMIF(H2:H51,">4",B2:B51)
 - Used **SUMIF** and **COUNTIF** for conditional calculations:
   - Total selling price for homes with more than 4 bedrooms:  
     `=SUMIF(H2:H51, ">4", B2:B51)`
