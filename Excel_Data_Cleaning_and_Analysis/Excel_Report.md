@@ -23,13 +23,15 @@ Charts:
 - bar chart of average selling price by numebr of bedrooms (derived from Table 1.1) - Chart 1.1 in chart sheet
 - scatter plot of living space vs selling Price (derived directly from Sell and Living Space columns of data sheet) - chart 2.1 in chart sheet
 - line chart showing total Selling Price across age groups (derived from Table 3.1) - Chart 3.1 in chart sheet
- 
+ Dashboard:
+ - All pivot tables and charts from pivot table and chart sheets were copied
+ - Slicers:
+    - Age slicer added to Table 1.2
+    - Beds slicer added to Table 2.2 and 3.2
 ---
 ## 4. Key Insights
-- Six-bedroom homes tend to command the highest average selling prices.
-- A positive correlation exists between living space and selling price, confirming intuitive real estate market trends.
-- Properties categorized as “expensive” mostly exceed the $150k price point.
-- Tax amounts generally increase with property age and size.
+- Six-bedroom homes tend to command the highest average selling prices as seen in Table 1.2
+- A positive correlation exists between living space and selling price, confirming intuitive real estate market trends as seen in Chart 3.2
 
 ---
 ## 5. Reflection and Learning Outcomes
