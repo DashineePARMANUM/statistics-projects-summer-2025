@@ -17,19 +17,19 @@ GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu
 Before analysis, I calculated price differences and categorized homes as “expensive” based on price thresholds. Key Excel features utilized included conditional formatting to highlight data patterns, logical formulas (IF, SUMIF, COUNTIF) to aggregate information, and lookup functions (VLOOKUP) for enriching data with agent information.
 
 Pivot tables:  
-- Summarized average prices by bedrooms - Table 1.1 in *sheet pivto table*   
-- Summarized total taxes by age groups - Table 2.1 in *sheet pivto table* 
-- Summarized total selling price by age group - Table 3.1 in *sheet pivto table*  
+- Summarized average prices by bedrooms (Table 1.1 - sheet *pivot table*) 
+- Summarized total taxes by age groups (Table 2.1 - sheet *pivot table*)
+- Summarized total selling price by age group (Table 3.1 - sheet *pivot table*)
 
 Charts:  
-- Bar chart of average selling price by number of bedrooms (derived from Table 1.1) - Chart 1.1 in *sheet chart*  
-- Bcatter plot of living space vs selling Price (derived directly from *Sell and Living Space columns of sheet data*) - Chart 2.1 in *sheet chart* 
-- line chart of total selling price across age groups (derived from Table 3.1) - Chart 3.1 in *see chart*   
+- Bar chart of average selling price by number of bedrooms (Chart 1.1 - sheet *chart*, derived from Table 1.1) 
+- Scatter plot of living space vs selling price (Chart 2.1 - sheet *chart*, derived directly from *Sell* and *Living Space* columns of sheet *data*) 
+- Line chart of total selling price across age groups (Chart 3.1 - sheet *chart*, derived from Table 3.1)  
 
 Dashboard:  
-- All pivot tables and charts from *sheet pivot table* and  *sheet charts* were copied to *sheet dashboard* 
+- All pivot tables and charts from sheets *pivot table* and *charts* were copied to sheet *dashboard* 
 - Slicers:  
-  - Age slicer added to Table 1.2  
+  - Age slicer added to Table 1.2
   - Beds slicer added to Table 2.2 and 3.2  
 
 ---
