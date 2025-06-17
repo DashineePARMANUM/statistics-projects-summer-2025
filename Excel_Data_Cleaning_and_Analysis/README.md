@@ -29,6 +29,9 @@ This project showcases data cleaning, analysis, and visualization in Excel using
 - Pivot tables and dashboards
 - Cell referencing and sheet protection
 
+## Usage
+Open **home.xlsx** with Microsoft Excel (version 2016 or later recommended) to explore the cleaned data, pivot tables, and dashboard.
+
 ## Data Source and License
 The dataset used in this project was obtained from the CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html.
 > "The computer code and data files described and made available on this web page are distributed under the GNU LGPL license."

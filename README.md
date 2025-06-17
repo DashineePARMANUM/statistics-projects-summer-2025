@@ -17,8 +17,9 @@ This Summer, I am going to complete multiple projects that demonstrate data clea
 | 4    | Statistical Analysis & Modeling     | R (tidyverse, modeling)        |
 | 5    | Python for Data Analysis            | Python (pandas, matplotlib)    |
 
-Each week’s folder contains:
+Each folder contains:
 - A project description
+- Original/Raw datasets
 - Cleaned datasets
 - Code/scripts used
 - Visualizations and reports
