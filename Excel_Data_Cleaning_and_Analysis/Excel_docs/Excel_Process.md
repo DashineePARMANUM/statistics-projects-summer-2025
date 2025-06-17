@@ -29,15 +29,11 @@
 
 ---
 ## 4. Absolute and Relative References
-- Placed a fixed tax rate of 5% in a cell (`M52 = 0.05`).
-
-- Calculated 5% tax on selling price using absolute cell referencing:  
-  `=B2 * $M$52` in `M2`, copied down.
-
-- Added a check column `(B2 * 0.05) - M2` to verify correct calculations.
+- Placed a fixed tax rate of 5% in a cell (M52 = 0.05).
+- Created column *0.05 tax rate* with formula: =Bi*$M$52 for i = 2-51
+- Created column *Bi * 0.05 - checking M* with formula: =(Bi*0.05)-Mi for i = 2-51
 
 ---
-
 ## 5. Sheet Protection
 - Unlocked the Price Difference column to allow editing.
 
