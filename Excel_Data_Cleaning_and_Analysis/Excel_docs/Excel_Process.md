@@ -5,25 +5,11 @@
 
 ---
 ## 1. Original Data and Setup
-- "homes.csv" contains 50 home listings
+- "homes.csv" contains 50 home listings with selling price, asking price, living space, rooms, bedrooms, bathrooms, age, acreage and taxes.
 - Converted the .csv file to .xlsx and rename sheet *data*.
 - Created a *home ID* column (leftmost) to identify homes (numebr 1-50).
 - Froze the top row to keep headers visible and the first column to keep home IDs visible while scrolling.
-- Columns:
-    A = home ID - added
-    B = Sell (selling price)
-    C = "List" (asking price)
-    D = Price difference - added
-    E = Is Expensive? (> 150) - added
-    F = "Living" (living space)
-    G = "Rooms" (rooms)
-    H = "Beds" (bedrooms)
-    I = “Baths” (bathrooms)
-    J = “Age” (age)
-    K = “Acres” (acreage)
-    L = “Taxes” (taxes)
-    M = 0.05 tax rate - added
-    N = Bi * 0.05 - checking M - added
+
 
 ---
 ## 2. Data Cleaning and some Calculations
@@ -36,21 +22,13 @@
 
 ---
 ## 3. Conditional Formatting and Data Validation
-
-- Applied **color scales** to Selling Price for visual differentiation.
-
-- Added **data bars** to Bedrooms column for visual emphasis.
-
-- Used **icon sets** on Price Difference:
-  - Up arrow if positive,
-  - Down arrow if negative,
-  - Sideways arrow if zero.
-
-- Applied **data validation** on Bedrooms column to restrict input to whole numbers between 1 and 10.
+- Applied color scales to column *Sell* for visual differentiation.
+- Added data bars to column *Beds* for visual emphasis.
+- Added icon sets to *Price Difference* (Up arrow for positive, Down arrow for negative and Sideways arrow for 0).
+- Applied data validation on Bedrooms column to restrict input to whole numbers between 1 and 10.
 
 ---
 ## 4. Absolute and Relative References
-
 - Placed a fixed tax rate of 5% in a cell (`M52 = 0.05`).
 
 - Calculated 5% tax on selling price using absolute cell referencing:  
