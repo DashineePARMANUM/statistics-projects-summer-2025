@@ -36,37 +36,22 @@
 ---
 ## 5. Sheet Protection
 - Unlocked the Price Difference column to allow editing.
-
 - Protected the sheet with a password to prevent accidental edits on locked cells.
-
 - Tested protection by trying to edit both locked and unlocked cells — worked as expected.
 
 ---
 ## 6. Lookup Functions
-
 - Created a small agent lookup table with Home ID and Agent Name.
-
-- Used `VLOOKUP` to fetch the agent name corresponding to each Home ID:  
-  `=VLOOKUP(A2, $P$2:$Q$4, 2, FALSE)`
-
-- Ensured exact matches to avoid errors.
-
+- Used VLOOKUP to fetch the agent name corresponding to each Home ID (=VLOOKUP(A2,$P$2:$Q$4,2,FALSE))
+ 
 ---
 ## 7. Pivot Tables
-
-- Created pivot tables for summarized insights:
-
-  - **Average Selling Price by Bedrooms:**  
-    Rows: Bedrooms; Values: Average of Selling Price.
-
-  - **Total Taxes by Age Groups:**  
-    Grouped Age into brackets (0–10 years, 11–20 years, etc.) and summed Taxes.
-
-  - **Total Selling Price by Age Groups:**  
-    Similar grouping, sum of Selling Price.
-
-- Applied filters on Bathrooms to focus on homes with 3 or 4 baths in some views.
-
+- Created 3 pivot tables for summarized insights:
+  - Average Sell by Bedrooms (Rows: Bedrooms; Values: Average of Selling Price)
+    - Applied filter to focus on homes with 3 or 4 bathrooms
+  - Total Taxes by Age Groups (Grouped Age into brackets and summed Taxes)
+  - Total Sell  by Age Groups (Grouped Age into brackets and summed Sell)
+ 
 ---
 ## 8. Charts
 
