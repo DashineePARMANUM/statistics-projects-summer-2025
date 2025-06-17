@@ -32,11 +32,7 @@
 - Calculated total selling price with formula: =SUM(B2:B51) 
 - Calculated average living space with formula: =AVERAGE(F2:F51)
 - Calculated total selling price for home with more than 4 bedrooms with formual: =SUMIF(H2:H51,">4",B2:B51)
-- Used **SUMIF** and **COUNTIF** for conditional calculations:
-  - Total selling price for homes with more than 4 bedrooms:  
-    `=SUMIF(H2:H51, ">4", B2:B51)`
-  - Count of homes with age less than 50:  
-    `=COUNTIF(J2:J51, "<50")`
+- Count number of houses less than 50 years old with formula: =COUNTIF(J2:J51,"<50")
 
 ---
 ## 3. Conditional Formatting and Data Validation
