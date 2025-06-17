@@ -54,9 +54,11 @@
  
 ---
 ## 8. Charts
-
 - Made charts for visual analysis:
-
+  - Bar chart of average *Sell* by *Beds* (Chart 1.1 - sheet *chart*, derived from Table 1.1) 
+  - Scatter plot of *Living* vs *Sell* (Chart 2.1 - sheet *chart*, derived directly from *Sell* and *Living Space* columns of sheet *data*) 
+  - Line chart of total *Sell* across *Age* groups (Chart 3.1 - sheet *chart*, derived from Table 3.1)
+  - 
   - **Bar chart** of average Sell by Beds (linked to first pivot table).
 
   - **Scatter plot** of Living vs Sell (from raw data).
