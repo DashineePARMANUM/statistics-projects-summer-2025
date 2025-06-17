@@ -15,9 +15,9 @@
 ## 2. Data Cleaning and some Calculations
 - Created column *Price Difference* with formula: Di =Ci-Bi for i = 2-51
 - Created column *Is Expensive? (> 150)?* with formula: =IF(Bi>150, "yes", "no") for i = 2-51
-- Calculated total selling price with formula: =SUM(B2:B51) 
-- Calculated average living space with formula: =AVERAGE(F2:F51)
-- Calculated total selling price for home with more than 4 bedrooms with formual: =SUMIF(H2:H51,">4",B2:B51)
+- Calculated total *Sell* with formula: =SUM(B2:B51) 
+- Calculated average *Living* with formula: =AVERAGE(F2:F51)
+- Calculated total *Sell* for home with more than 4 *Beds* with formula: =SUMIF(H2:H51,">4",B2:B51)
 - Count number of houses less than 50 years old with formula: =COUNTIF(J2:J51,"<50")
 
 ---
@@ -25,7 +25,7 @@
 - Applied color scales to column *Sell* for visual differentiation.
 - Added data bars to column *Beds* for visual emphasis.
 - Added icon sets to *Price Difference* (Up arrow for positive, Down arrow for negative and Sideways arrow for 0).
-- Applied data validation on Bedrooms column to restrict input to whole numbers between 1 and 10.
+- Applied data validation on column *Beds* to restrict input to whole numbers between 1 and 10.
 
 ---
 ## 4. Absolute and Relative References
@@ -35,33 +35,33 @@
 
 ---
 ## 5. Sheet Protection
-- Unlocked the Price Difference column to allow editing.
+- Unlocked the column *Price Difference* to allow editing.
 - Protected the sheet with a password to prevent accidental edits on locked cells.
 - Tested protection by trying to edit both locked and unlocked cells — worked as expected.
 
 ---
 ## 6. Lookup Functions
-- Created a small agent lookup table with Home ID and Agent Name.
-- Used VLOOKUP to fetch the agent name corresponding to each Home ID (=VLOOKUP(A2,$P$2:$Q$4,2,FALSE))
+- Created a small agent lookup table with *home ID* and *Agent Name*.
+- Used VLOOKUP to fetch the *Agent Name* corresponding to each *home ID* (=VLOOKUP(A2,$P$2:$Q$4,2,FALSE))
  
 ---
 ## 7. Pivot Tables
 - Created 3 pivot tables for summarized insights:
-  - Average Sell by Bedrooms (Rows: Bedrooms; Values: Average of Selling Price)
-    - Applied filter to focus on homes with 3 or 4 bathrooms
-  - Total Taxes by Age Groups (Grouped Age into brackets and summed Taxes)
-  - Total Sell  by Age Groups (Grouped Age into brackets and summed Sell)
+  - Average *Sell* by *Beds* (Rows: *Beds*; Values: Average of *Sell*)
+    - Applied filter to focus on homes with 3 or 4 *Baths*
+  - Total *Taxes* by *Age* groups (Grouped *Age* into brackets and summed *Taxes*)
+  - Total *Sell* by *Age* groups (Grouped *Age* into brackets and summed *Sell*)
  
 ---
 ## 8. Charts
 
 - Made charts for visual analysis:
 
-  - **Bar chart** of average selling price by bedrooms (linked to first pivot table).
+  - **Bar chart** of average Sell by Beds (linked to first pivot table).
 
-  - **Scatter plot** of Living Space vs Selling Price (from raw data).
+  - **Scatter plot** of Living vs Sell (from raw data).
 
-  - **Line chart** showing total selling price by age groups.
+  - **Line chart** showing total Sell by Age groups.
 
 - Customized chart titles, axis labels, and legend for clarity.
 
@@ -79,9 +79,9 @@
 ---
 ## 10. Key Insights
 
-- Homes with **6 bedrooms** have the highest average selling prices.
+- Homes with **6 bedrooms** have the highest average Sell.
 
-- There is a clear **positive correlation** between living space and selling price, consistent with market expectations.
+- There is a clear **positive correlation** between Living and Sell, consistent with market expectations.
 
 ---
 ## 11. Challenges and Solutions
