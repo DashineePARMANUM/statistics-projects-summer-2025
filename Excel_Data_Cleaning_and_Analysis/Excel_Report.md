@@ -30,7 +30,7 @@ Dashboard:
 - All pivot tables and charts from sheets *pivot table* and *charts* were copied to sheet *dashboard* 
 - Slicers:  
   - Age slicer added to Table 1.2
-  - Beds slicer added to Table 2.2 and 3.2  
+  - Connected Beds slicer added to Table 2.2 and 3.2  
 
 ---
 ## 4. Key Insights
