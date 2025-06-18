@@ -58,25 +58,14 @@
   - Bar chart of average *Sell* by *Beds* (Chart 1.1 - sheet *chart*, derived from Table 1.1) 
   - Scatter plot of *Living* vs *Sell* (Chart 2.1 - sheet *chart*, derived directly from *Sell* and *Living Space* columns of sheet *data*) 
   - Line chart of total *Sell* across *Age* groups (Chart 3.1 - sheet *chart*, derived from Table 3.1)
-  - 
-  - **Bar chart** of average Sell by Beds (linked to first pivot table).
-
-  - **Scatter plot** of Living vs Sell (from raw data).
-
-  - **Line chart** showing total Sell by Age groups.
-
-- Customized chart titles, axis labels, and legend for clarity.
+  - Customized chart titles, axis labels, and legend for clarity.
 
 ---
 ## 9. Dashboard Creation
-
-- Created a new sheet named `Dashboard`.
-
+- Created a new sheet named *dashboard*.
 - Consolidated all pivot tables and charts into this sheet for easy overview.
-
-- Added slicers to filter dynamically by Age groups and Bedrooms.
-
-- Connected slicers to multiple pivot tables for synchronized filtering.
+- Added slicers to filter dynamically by *Age* groups (Table 1.2) and *Beds* (Tables 2.2 and 3.2).
+- Connected slicers to multiple pivot tables for synchronized filtering (Tables 2.2 and 3.2).
 
 ---
 ## 10. Key Insights
