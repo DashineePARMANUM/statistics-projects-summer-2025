@@ -7,7 +7,7 @@
 ## 1. Original Data and Setup
 - "homes.csv" contains 50 home listings with selling price, asking price, living space, rooms, bedrooms, bathrooms, age, acreage and taxes.
 - Converted the .csv file to .xlsx and rename sheet *data*.
-- Created a *home ID* column (leftmost) to identify homes (numebr 1-50).
+- Created a *home ID* column (leftmost) to identify homes (number 1-50).
 - Froze the top row to keep headers visible and the first column to keep home IDs visible while scrolling.
 
 
