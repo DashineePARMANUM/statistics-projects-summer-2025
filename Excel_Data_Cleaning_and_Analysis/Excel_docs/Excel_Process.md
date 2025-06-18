@@ -69,21 +69,14 @@
 
 ---
 ## 10. Key Insights
-
-- Homes with **6 bedrooms** have the highest average Sell.
-
-- There is a clear **positive correlation** between Living and Sell, consistent with market expectations.
+- Homes with 6 bedrooms have the highest average *Sell* as seen in Table 1.2 in sheet *dashboard*.
+- There is a clear positive correlation between *Living* and *Sell*, consistent with market expectations as seen in Chart 3.2 in sheet *dashboard*.
 
 ---
 ## 11. Challenges and Solutions
-
 - Grouping ages into bins required using Pivot Table Group feature.
-
-- Ensuring consistent Home IDs for `VLOOKUP` required careful table range and absolute references.
-
 - Locked/unlocked cell protection required trial and error to allow edits only where needed.
 
 ---
 ## 12. Final File
-
-- All data, analysis, pivot tables, charts, and dashboard are saved in the file **home.xlsx**.
+- All data, analysis, pivot tables, charts, and dashboard are saved in the file "home.xlsx".
