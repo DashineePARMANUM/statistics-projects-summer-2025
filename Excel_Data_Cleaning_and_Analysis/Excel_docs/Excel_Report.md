@@ -27,15 +27,15 @@ Charts:
 - Line chart of total *Sell* across *Age* groups (Chart 3.1 - sheet *chart*, derived from Table 3.1)  
 
 Dashboard:  
-- All pivot tables and charts from sheets *pivot table* and *charts* were copied to sheet *dashboard* 
+- All pivot tables and charts from sheets *pivot table* and *charts* were copied to sheet *dashboard*.
 - Slicers:  
   - Age slicer added to Table 1.2
   - Connected Beds slicer added to Table 2.2 and 3.2  
 
 ---
 ## 4. Key Insights
-- Six-bedroom homes tend to command the highest average *Sell* as seen in Table 1.2 in sheet *dashboard*
-- A positive correlation exists between *Living* and *Sell*, confirming intuitive real estate market trends as seen in Chart 3.2 in sheet *dashboard*
+- Six-bedroom homes tend to command the highest average *Sell* as seen in Table 1.2 in sheet *dashboard*.
+- A positive correlation exists between *Living* and *Sell*, confirming intuitive real estate market trends as seen in Chart 3.2 in sheet *dashboard*.
 
 ---
 ## 5. Reflection and Learning Outcomes
