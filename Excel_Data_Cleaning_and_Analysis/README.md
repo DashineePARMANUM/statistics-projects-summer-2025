@@ -18,10 +18,6 @@ This project showcases data cleaning, analysis, and visualization in Excel using
 - Pivot tables and dashboards
 - Bar, scatter, and line charts
 
-## Some Insights from the Dashboard
-- 6-bedroom homes have the highest average selling price (Table 1.2)
-- Living space and selling price show a positive correlation (Chart 3.2)
-
 ## Skills Demonstrated
 - Excel data cleaning
 - Logical formulas: IF, SUMIF, COUNTIF
