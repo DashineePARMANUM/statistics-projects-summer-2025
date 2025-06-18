@@ -3,8 +3,8 @@
 This project showcases data cleaning, analysis, and visualization in Excel using a home sales dataset.
 
 ## Files
-- "home.csv" = Original dataset
-- "home.xlsx" = Cleaned and analyzed version with:
+- "homes.csv" = Original dataset
+- "homes.xlsx" = Cleaned and analyzed version with:
     - Calculated fields (e.g. price difference)
     - Conditional formatting
     - Lookup functions
