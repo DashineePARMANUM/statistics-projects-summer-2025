@@ -80,3 +80,6 @@
 ---
 ## 12. Final File
 - All data, analysis, pivot tables, charts, and dashboard are saved in the file "home.xlsx".
+
+---
+**Contact:** dashinee.parmanum@gmail.com
