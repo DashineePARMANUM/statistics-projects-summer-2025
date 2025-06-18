@@ -22,7 +22,7 @@
 
 ---
 ## 3. Conditional Formatting and Data Validation
-- Applied color scales to column *Sell* for visual differentiation (Red to Green scale, red beign most expensive)
+- Applied color scales to column *Sell* for visual differentiation (Red to Green scale, red being most expensive)
 - Added data bars to column *Beds* for visual emphasis (Longer bars for more *Beds*).
 - Added icon sets to *Price Difference* (Up arrow for positive, Down arrow for negative and Sideways arrow for 0).
 - Applied data validation on column *Beds* to restrict input to whole numbers between 1 and 10.
