@@ -27,7 +27,7 @@ This project showcases data cleaning, analysis, and visualization in Excel using
 - Cell referencing and sheet protection
 
 ## Usage
-- Open **homes.xlsx** with Microsoft Excel (version 2016 or later recommended) to explore the cleaned data, pivot tables, and dashboard.
+- Open `homes.xlsx` with Microsoft Excel (version 2016 or later recommended) to explore the cleaned data, pivot tables, and dashboard.
 - For a detailed project overview and insights, refer to "Excel_Report.md" (Excel_docs folder).
 - For step-by-step methodology and formula explanations, see "Excel_Process.md" (Excel_docs folder).
 
