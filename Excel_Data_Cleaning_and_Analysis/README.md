@@ -2,14 +2,19 @@
 
 This project showcases data cleaning, analysis, and visualization in Excel using a home sales dataset.
 
-## Files
-- "homes.csv" = Original dataset
-- "homes.xlsx" = Cleaned and analyzed version with:
-    - Calculated fields (e.g. price difference)
+## Files and Folders
+- **In folder "Excel_Datasets":**
+  - "homes.csv" = Original raw dataset
+  - "homes.xlsx" = Cleaned and analyzed Excel workbook including:
+    - Calculated fields (e.g., price difference)
     - Conditional formatting
     - Lookup functions
     - Pivot tables and charts
     - A mini dashboard with slicers
+- **In folder "Excel_Docs":**
+  - "Excel_Report.md" = Detailed project overview and insights
+  - "Excel_Process.md" = Step-by-step methodology and formula explanations
+  - "Excel_Exercises.md" = Exercise/Questions
 
 ## Key Features
 - Conditional formatting for visual insights
@@ -26,7 +31,7 @@ This project showcases data cleaning, analysis, and visualization in Excel using
 - Cell referencing and sheet protection
 
 ## Usage
-- Open **home.xlsx** with Microsoft Excel (version 2016 or later recommended) to explore the cleaned data, pivot tables, and dashboard.
+- Open **homes.xlsx** with Microsoft Excel (version 2016 or later recommended) to explore the cleaned data, pivot tables, and dashboard.
 - For a detailed project overview and insights, refer to "Excel_Report.md" (Excel_docs folder).
 - For step-by-step methodology and formula explanations, see "Excel_Process.md" (Excel_docs folder).
 
@@ -34,4 +39,3 @@ This project showcases data cleaning, analysis, and visualization in Excel using
 The dataset used in this project was obtained from the CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html.
 > "The computer code and data files described and made available on this web page are distributed under the GNU LGPL license."
 GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt
-
