@@ -1,4 +1,4 @@
-# Excel Data Cleaning and Analysis - Home Sales
+# Excel Data Cleaning and Analysis: Home Sales
 
 This project showcases data cleaning, analysis, and visualization in Excel using a home sales dataset.
 
