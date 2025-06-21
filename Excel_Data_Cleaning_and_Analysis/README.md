@@ -3,13 +3,13 @@
 This project showcases data cleaning, analysis, and visualization in Excel using a home sales dataset.
 
 ## Files and Folders
-- **"Excel_Datasets":**
+- **`Excel_Datasets`:**
   - `homes.csv` = Original raw dataset
-  - "homes.xlsx" = Cleaned and analyzed Excel workbook including:
-- **"Excel_Docs":**
-  - "Excel_Report.md" = Detailed project overview and insights
-  - "Excel_Process.md" = Step-by-step methodology and formula explanations
-  - "Excel_Exercises.md" = Exercises/Questions
+  - `homes.xlsx` = Cleaned and analyzed Excel workbook
+- **`Excel_Docs`:**
+  - `Excel_Report.md` = Detailed project overview and insights
+  - `Excel_Process.md` = Step-by-step methodology and formula explanations
+  - `Excel_Exercises.md` = Exercises/Questions
 
 ## Key Features
 - Conditional formatting for visual insights
