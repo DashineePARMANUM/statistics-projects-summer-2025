@@ -1,4 +1,4 @@
-# SQL Data Querying Exercises
+# SQL Data Querying Exercises: Major League Baseball Players dataset
 
 **Dashinee Parmanum**  
 *Self-directed portfolio project in Statistics and Data Analysis — Summer 2025*
