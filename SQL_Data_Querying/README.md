@@ -2,9 +2,6 @@
 
 This project showcases data cleaning, analysis, and querying in SQL using a major league baseball players dataset.
 
-## Files
-- "mlb_players.csv" = Original dataset
-  
 ## Files and Folders
 - **`SQL_Datasets` folder:**
   - `mlb_players.csv` = Original raw dataset
