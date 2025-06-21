@@ -9,13 +9,13 @@ This Summer, I am going to complete multiple projects that demonstrate data clea
 
 ## Projects Overview
 
-| Week | Focus Areas                         | Tools & Skills                 |
-|------|-------------------------------------|--------------------------------|
-| 1    | Excel Basics & Data Cleaning        | Excel (formulas, pivot tables) |
-| 2    | SQL for Data Querying               | SQL (joins, aggregations)      |
-| 3    | Data Visualization                  | Power BI                       |
-| 4    | Statistical Analysis & Modeling     | R (tidyverse, modeling)        |
-| 5    | Python for Data Analysis            | Python (pandas, matplotlib)    |
+| Focus Areas                         | Tools & Skills                 |
+|-------------------------------------|--------------------------------|
+| Excel Basics & Data Cleaning        | Excel (formulas, pivot tables) |
+| SQL for Data Querying               | SQL (joins, aggregations)      |
+| Data Visualization                  | Power BI                       |
+| Statistical Analysis & Modeling     | R (tidyverse, modeling)        |
+| Python for Data Analysis            | Python (pandas, matplotlib)    |
 
 Each folder contains:
 - A project description
