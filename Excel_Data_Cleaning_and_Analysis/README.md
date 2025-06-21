@@ -4,7 +4,7 @@ This project showcases data cleaning, analysis, and visualization in Excel using
 
 ## Files and Folders
 - **"Excel_Datasets":**
-  - "homes.csv" = Original raw dataset
+  - `homes.csv` = Original raw dataset
   - "homes.xlsx" = Cleaned and analyzed Excel workbook including:
 - **"Excel_Docs":**
   - "Excel_Report.md" = Detailed project overview and insights
