@@ -58,3 +58,6 @@
 - Write a summary answering:  
   - Which bedroom count has the highest average selling price?  
   - Is there a correlation between Living Space and Selling Price?
+ 
+ ---
+**Contact:** dashinee.parmanum@gmail.com
