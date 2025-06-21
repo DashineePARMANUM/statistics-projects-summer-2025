@@ -6,11 +6,6 @@ This project showcases data cleaning, analysis, and visualization in Excel using
 - **In folder "Excel_Datasets":**
   - "homes.csv" = Original raw dataset
   - "homes.xlsx" = Cleaned and analyzed Excel workbook including:
-    - Calculated fields (e.g., price difference)
-    - Conditional formatting
-    - Lookup functions
-    - Pivot tables and charts
-    - A mini dashboard with slicers
 - **In folder "Excel_Docs":**
   - "Excel_Report.md" = Detailed project overview and insights
   - "Excel_Process.md" = Step-by-step methodology and formula explanations
@@ -22,6 +17,7 @@ This project showcases data cleaning, analysis, and visualization in Excel using
 - Data validation and sheet protection
 - Pivot tables and dashboards
 - Bar, scatter, and line charts
+- Mini dashboard with slicers
 
 ## Skills Demonstrated
 - Excel data cleaning
