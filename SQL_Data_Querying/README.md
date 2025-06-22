@@ -4,7 +4,8 @@ This project showcases data cleaning, analysis, and querying in SQL using a majo
 
 ## Files and Folders
 - **`SQL_Datasets` folder:**
-  - `mlb_players.csv` = Original raw dataset
+  - `mlb_players_raw.csv` = Original raw dataset
+  - `mlb_players.csv` = Modified dataset used to import data
 - **`SQL_Docs` folder:**
   - `SQL_Report.md` = Detailed project overview and insights
   - `SQL_Process.md` = Step-by-step methodology
