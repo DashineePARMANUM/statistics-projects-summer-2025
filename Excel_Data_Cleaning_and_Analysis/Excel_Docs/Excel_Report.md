@@ -18,7 +18,7 @@ Before analysis, I calculated price differences and categorized homes as “expe
 
 Pivot tables:  
 - Summarized average *Sell* by *Beds* (Table 1.1 - sheet *pivot table*)
-  ![](Excel_Data_Cleaning_and_Analysis/Excel_Images/Table1.1.png)
+  ![](statistics-projects-summer-2025/Excel_Data_Cleaning_and_Analysis/Excel_Images/Table1.1.png)
 - Summarized total *Taxes* by *Age* groups (Table 2.1 - sheet *pivot table*)
 - Summarized total *Sell* by *Age* group (Table 3.1 - sheet *pivot table*)
 
