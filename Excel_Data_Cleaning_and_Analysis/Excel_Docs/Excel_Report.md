@@ -17,14 +17,14 @@ GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu
 Before analysis, I calculated price differences and categorized homes as “expensive” based on price thresholds. Key Excel features utilized included conditional formatting to highlight data patterns, logical formulas (IF, SUMIF, COUNTIF) to aggregate information, and lookup functions (VLOOKUP) for enriching data with agent information.
 
 Pivot tables:  
-- Summarized average *Sell* by *Beds* (Table 1.1 - sheet *pivot table*) 
-- Summarized total *Taxes* by *Age* groups (Table 2.1 - sheet *pivot table*)
-- Summarized total *Sell* by *Age* group (Table 3.1 - sheet *pivot table*)
+- Summarized average *Sell* by *Beds* (Table 1.1 - sheet *pivot table* or folder `Excel_Images`)
+- Summarized total *Taxes* by *Age* groups (Table 2.1 - sheet *pivot table* or folder `Excel_Images`)
+- Summarized total *Sell* by *Age* group (Table 3.1 - sheet *pivot table* or folder `Excel_Images`)
 
 Charts:  
-- Bar chart of average *Sell* by *Beds* (Chart 1.1 - sheet *chart*, derived from Table 1.1) 
-- Scatter plot of *Living* vs *Sell* (Chart 2.1 - sheet *chart*, derived directly from *Sell* and *Living* columns of sheet *data*) 
-- Line chart of total *Sell* across *Age* groups (Chart 3.1 - sheet *chart*, derived from Table 3.1)  
+- Bar chart of average *Sell* by *Beds* (Chart 1.1 - sheet *chart* or folder `Excel_Images`, derived from Table 1.1) 
+- Scatter plot of *Living* vs *Sell* (Chart 2.1 - sheet *chart* or folder `Excel_Images`, derived directly from *Sell* and *Living* columns of sheet *data*) 
+- Line chart of total *Sell* across *Age* groups (Chart 3.1 - sheet *chart* or folder `Excel_Images`, derived from Table 3.1)  
 
 Dashboard:  
 - All pivot tables and charts from sheets *pivot table* and *charts* were copied to sheet *dashboard*.
