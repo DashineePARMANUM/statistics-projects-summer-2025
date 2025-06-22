@@ -10,6 +10,7 @@ This project showcases data cleaning, analysis, and visualization in Excel using
   - `Excel_Report.md` = Detailed project overview and insights
   - `Excel_Process.md` = Step-by-step methodology and formula explanations
   - `Excel_Exercises.md` = Exercises/Questions
+- **`Excel_Images`** folder = screenshots of the tables/charts
 
 ## Key Features
 - Conditional formatting for visual insights
