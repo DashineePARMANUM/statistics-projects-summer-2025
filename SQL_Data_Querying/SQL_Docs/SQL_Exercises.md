@@ -36,7 +36,7 @@
 - Create a summary view/table that shows average Height, Weight, and Age grouped by Team.
 - Query this summary view/table sorted by average Height descending.
 
-## 9. Constraints and Data Validation (conceptual)
+## 9. Constraints and Data Validation
 - Write a statement to add a constraint to ensure Age is always greater than zero.
 
  ---
