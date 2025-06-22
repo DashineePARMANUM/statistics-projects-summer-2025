@@ -21,7 +21,8 @@ The dataset used was a CSV file containing MLB player information. I first prepa
 - Created a lookup table to join team information with player data.  
 - Applied sorting, window functions, and summary views to extract meaningful insights.  
 - Added a constraint to ensure player ages are valid (positive).
-
+- All SQL work was conducted using the pgAdmin application, connected to a local PostgreSQL server.
+  
 ---
 ## 4. Key Insights
 - The top 5 heaviest players in the dataset are C.C. Sabathia (290 lbs), Chris Britton (278 lbs), Frank Thomas (275 lbs), Bobby Jenks (270 lbs), and Andrew Sisco (260 lbs).
