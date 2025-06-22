@@ -29,7 +29,7 @@
 ## 6. Sorting and Limits
 - Retrieve the top 5 heaviest players with their names and weights.
 
-## 7. Window Functions (optional/advanced)
+## 7. Window Functions 
 - Display each player’s Name, Position, Weight, and the average Weight for their Position in the same result.
 
 ## 8. Summary Tables / Views
