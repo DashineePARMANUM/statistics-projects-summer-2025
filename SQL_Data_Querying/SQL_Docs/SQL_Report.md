@@ -24,8 +24,8 @@ The dataset used was a CSV file containing MLB player information. I first prepa
 
 ---
 ## 4. Key Insights
-- Six-bedroom homes tend to command the highest average *Sell* as seen in Table 1.2 in sheet *dashboard*.
-- A positive correlation exists between *Living* and *Sell*, confirming intuitive real estate market trends as seen in Chart 3.2 in sheet *dashboard*.
+- The top 5 heaviest players in the dataset are C.C. Sabathia (290 lbs), Chris Britton (278 lbs), Frank Thomas (275 lbs), Bobby Jenks (270 lbs), and Andrew Sisco (260 lbs).
+- The team with the highest average player height is the Chicago White Sox (CWS), possibly indicating that this team tends to have taller players on average compared to other teams in the dataset.
 
 ---
 ## 5. Reflection and Learning Outcomes
