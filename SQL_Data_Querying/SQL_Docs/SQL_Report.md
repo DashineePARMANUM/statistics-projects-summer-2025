@@ -9,7 +9,7 @@ This project explores player data from Major League Baseball (MLB) using SQL. Th
 
 ---
 ## 2. Data Description
-The dataset contains information for 1034 professional baseball players, including their names, teams, positions, heights (in inches), weights (in pounds), and ages. The data was sourced from the CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html (mlb_players.csv). 
+The dataset contains information for 1034 professional baseball players, including their names, teams, positions, heights (in inches), weights (in pounds), and ages. The data was sourced from the CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html (`mlb_players.csv`). 
 GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt
 
 ---
