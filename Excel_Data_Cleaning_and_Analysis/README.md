@@ -1,5 +1,10 @@
 # Excel Data Cleaning and Analysis: Home Sales
 
+**Dashinee Parmanum**  
+*Self-directed portfolio project in Statistics and Data Analysis — Summer 2025*
+
+--
+
 This project showcases data cleaning, analysis, and visualization in Excel using a home sales dataset.
 
 ## Files and Folders
@@ -35,3 +40,6 @@ This project showcases data cleaning, analysis, and visualization in Excel using
 The dataset used in this project was obtained from the CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html.
 > "The computer code and data files described and made available on this web page are distributed under the GNU LGPL license."
 GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt
+
+---
+**Contact:** dashinee.parmanum@gmail.com
