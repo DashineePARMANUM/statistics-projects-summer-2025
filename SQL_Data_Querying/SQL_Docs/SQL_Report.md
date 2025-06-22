@@ -9,29 +9,18 @@ This project explores player data from Major League Baseball (MLB) using SQL. Th
 
 ---
 ## 2. Data Description
-The dataset contains information for 1034 professional baseball players, including their names, teams, positions, heights (in inches), weights (in pounds), and ages. The data was cleaned by removing special characters and renaming columns for compatibility/ease when working with SQL. The data was sourced from the CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html (mlb_players.csv). 
+The dataset contains information for 1034 professional baseball players, including their names, teams, positions, heights (in inches), weights (in pounds), and ages. The data was sourced from the CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html (mlb_players.csv). 
 GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt
 
 ---
 ## 3. Methodology
-
-Before analysis, I calculated price differences and categorized homes as “expensive” based on price thresholds. Key Excel features utilized included conditional formatting to highlight data patterns, logical formulas (IF, SUMIF, COUNTIF) to aggregate information, and lookup functions (VLOOKUP) for enriching data with agent information.
-
-Pivot tables:  
-- Summarized average *Sell* by *Beds* (Table 1.1 - sheet *pivot table*) 
-- Summarized total *Taxes* by *Age* groups (Table 2.1 - sheet *pivot table*)
-- Summarized total *Sell* by *Age* group (Table 3.1 - sheet *pivot table*)
-
-Charts:  
-- Bar chart of average *Sell* by *Beds* (Chart 1.1 - sheet *chart*, derived from Table 1.1) 
-- Scatter plot of *Living* vs *Sell* (Chart 2.1 - sheet *chart*, derived directly from *Sell* and *Living* columns of sheet *data*) 
-- Line chart of total *Sell* across *Age* groups (Chart 3.1 - sheet *chart*, derived from Table 3.1)  
-
-Dashboard:  
-- All pivot tables and charts from sheets *pivot table* and *charts* were copied to sheet *dashboard*.
-- Slicers:  
-  - *Age* slicer added to Table 1.2
-  - Connected *Beds* slicer added to Table 2.2 and 3.2  
+The dataset used was a CSV file containing MLB player information. I first prepared the data by emoving special characters and renaming columns for compatibility/ease then performed SQL queries as follows:
+- Created a new database and table to store the player data.  
+- Imported the cleaned CSV file into the database using PostgreSQL’s `COPY` command.
+- Used SQL queries to explore and analyze the data, including selecting and filtering records, creating conditional columns, and aggregating data by groups.  
+- Created a lookup table to join team information with player data.  
+- Applied sorting, window functions, and summary views to extract meaningful insights.  
+- Added a constraint to ensure player ages are valid.
 
 ---
 ## 4. Key Insights
