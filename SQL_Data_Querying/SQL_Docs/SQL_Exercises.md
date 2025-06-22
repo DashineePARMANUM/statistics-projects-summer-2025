@@ -10,7 +10,7 @@
 - Select Name and Height in inches, and create a new column showing Height in centimeters (1 inch = 2.54 cm).
 
 ## 2. Conditional Columns (CASE / IF logic)
-- Create a column `Is_Heavy` that returns “Yes” if Weight is greater than 200 pounds, otherwise “No”.
+- Create a column *Is_Heavy* that returns “Yes” if Weight is greater than 200 pounds, otherwise “No”.
 
 ## 3. Aggregations and Grouping
 - Count the total number of players.
