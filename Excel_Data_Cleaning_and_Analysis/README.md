@@ -3,7 +3,7 @@
 **Dashinee Parmanum**  
 *Self-directed portfolio project in Statistics and Data Analysis — Summer 2025*
 
---
+---
 
 This project showcases data cleaning, analysis, and visualization in Excel using a home sales dataset.
 
