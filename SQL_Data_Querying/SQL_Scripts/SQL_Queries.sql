@@ -83,7 +83,6 @@ SELECT Name, Position, Weight, AVG(Weight) OVER (PARTITION BY Position) AS Avera
 -- Summary Tables / Views ----------------------------------------------------------------------------------------------
 
 -- Create a summary view/table that shows average Height, Weight, and Age grouped by Team
--- view creation
 DROP VIEW IF EXISTS team_summary;
 CREATE VIEW team_summary AS
 SELECT Team, AVG(Height) AS Average_Height, AVG(Weight) AS Average_Weight, AVG(Age) AS Average_Age
