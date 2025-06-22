@@ -3,14 +3,14 @@
 This project showcases data cleaning, analysis, and querying in SQL using a major league baseball players dataset.
 
 ## Files and Folders
-- **`SQL_Datasets` folder:**
+- **`SQL_Datasets`:**
   - `mlb_players_raw.csv` = Original raw dataset
   - `mlb_players.csv` = Modified dataset used to import data
-- **`SQL_Docs` folder:**
+- **`SQL_Docs`:**
   - `SQL_Report.md` = Detailed project overview and insights
   - `SQL_Process.md` = Step-by-step methodology
   - `SQL_Exercises.md` = Exercises/Questions
-- **`SQL_Scripts` folder:**
+- **`SQL_Scripts`:**
   - `SQL_Queries.sql` = SQL queries for cleaning, exploration, and analysis
 
 ## Key Features
