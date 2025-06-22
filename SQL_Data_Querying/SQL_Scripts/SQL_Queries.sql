@@ -2,7 +2,7 @@
 -- Dashinee Parmanum - dashinee.parmanum@gmail.com
 -- Self-directed portfolio project in Statistics and Data Analysis — Summer 2025
 
--- set up --------------------------------------------------------------------------------------------------------------
+-- Set up --------------------------------------------------------------------------------------------------------------
 
 -- table creation
 DROP TABLE IF EXISTS mlb_players;
