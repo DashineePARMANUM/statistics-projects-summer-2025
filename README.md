@@ -26,7 +26,7 @@ Each folder contains:
 
 ## How to Use This Repo
 
-- Browse by week folder to explore individual projects
+- Browse by folder to explore individual projects
 - Run the scripts in R or Python environments for reproducibility
 - Review Excel and Power BI files using the respective software
 

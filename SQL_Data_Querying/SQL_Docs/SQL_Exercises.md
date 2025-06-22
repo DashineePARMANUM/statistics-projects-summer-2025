@@ -29,14 +29,14 @@
 ## 6. Sorting and Limits
 - Retrieve the top 5 heaviest players with their names and weights.
 
-## 7. Window Functions (optional/advanced)
+## 7. Window Functions 
 - Display each player’s Name, Position, Weight, and the average Weight for their Position in the same result.
 
 ## 8. Summary Tables / Views
 - Create a summary view/table that shows average Height, Weight, and Age grouped by Team.
 - Query this summary view/table sorted by average Height descending.
 
-## 9. Constraints and Data Validation (conceptual)
+## 9. Constraints and Data Validation
 - Write a statement to add a constraint to ensure Age is always greater than zero.
 
  ---
