@@ -17,7 +17,7 @@
 - Created column *Is Expensive? (> 150)?* with formula: =IF(Bi>150, "yes", "no") for i = 2-51
 - Calculated total *Sell* with formula: =SUM(B2:B51) 
 - Calculated average *Living* with formula: =AVERAGE(F2:F51)
-- Calculated total *Sell* for home with more than 4 *Beds* with formula: =SUMIF(H2:H51,">4",B2:B51)
+- Calculated total *Sell* for homes with more than 4 *Beds* with formula: =SUMIF(H2:H51,">4",B2:B51)
 - Count number of houses less than 50 years old with formula: =COUNTIF(J2:J51,"<50")
 
 ---
@@ -79,7 +79,7 @@
 
 ---
 ## 12. Final File
-- All data, analysis, pivot tables, charts, and dashboard are saved in the file "home.xlsx".
+- All data, analysis, pivot tables, charts, and dashboard are saved in the file `homes.xlsx`.
 
 ---
 **Contact:** dashinee.parmanum@gmail.com
