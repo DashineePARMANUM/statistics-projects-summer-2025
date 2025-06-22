@@ -14,13 +14,13 @@ GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu
 
 ---
 ## 3. Methodology
-The dataset used was a CSV file containing MLB player information. I first prepared the data by emoving special characters and renaming columns for compatibility/ease then performed SQL queries as follows:
+The dataset used was a CSV file containing MLB player information. I first prepared the data by removing special characters and renaming columns for compatibility/ease then performed SQL queries as follows:
 - Created a new database and table to store the player data.  
 - Imported the cleaned CSV file into the database using PostgreSQL’s `COPY` command.
 - Used SQL queries to explore and analyze the data, including selecting and filtering records, creating conditional columns, and aggregating data by groups.  
 - Created a lookup table to join team information with player data.  
 - Applied sorting, window functions, and summary views to extract meaningful insights.  
-- Added a constraint to ensure player ages are valid.
+- Added a constraint to ensure player ages are valid (positive).
 
 ---
 ## 4. Key Insights
