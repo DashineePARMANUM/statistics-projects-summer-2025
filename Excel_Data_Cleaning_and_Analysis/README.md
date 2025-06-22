@@ -29,7 +29,7 @@ This project showcases data cleaning, analysis, and visualization in Excel using
 
 ## Usage
 - Open `homes.xlsx` with Microsoft Excel (version 2016 or later recommended) to explore the cleaned data, pivot tables, and dashboard.
-- See the detailed project overview and methodology in the documentation in the `Excel_Docs` folder.
+- See the detailed project overview and methodology in the documentation in the folder `Excel_Docs`.
 
 ## Data Source and License
 The dataset used in this project was obtained from the CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html.
