@@ -17,7 +17,8 @@ GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu
 Before analysis, I calculated price differences and categorized homes as “expensive” based on price thresholds. Key Excel features utilized included conditional formatting to highlight data patterns, logical formulas (IF, SUMIF, COUNTIF) to aggregate information, and lookup functions (VLOOKUP) for enriching data with agent information.
 
 Pivot tables:  
-- Summarized average *Sell* by *Beds* (Table 1.1 - sheet *pivot table*) 
+- Summarized average *Sell* by *Beds* (Table 1.1 - sheet *pivot table*)
+  ![](Excel_Data_Cleaning_and_Analysis/Excel_Images/Table1.1.png)
 - Summarized total *Taxes* by *Age* groups (Table 2.1 - sheet *pivot table*)
 - Summarized total *Sell* by *Age* group (Table 3.1 - sheet *pivot table*)
 
