@@ -17,14 +17,14 @@ GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu
 Before analysis, I calculated price differences and categorized homes as “expensive” based on price thresholds. Key Excel features utilized included conditional formatting to highlight data patterns, logical formulas (IF, SUMIF, COUNTIF) to aggregate information, and lookup functions (VLOOKUP) for enriching data with agent information.
 
 Pivot tables:  
-- Summarized average *Sell* by *Beds* (Table 1.1 - sheet *pivot table* or `Excel_Images` for screenshot)
-- Summarized total *Taxes* by *Age* groups (Table 2.1 - sheet *pivot table* or `Excel_Images` for screenshot)
-- Summarized total *Sell* by *Age* group (Table 3.1 - sheet *pivot table* or `Excel_Images` for screenshot)
-
+- Table 1.1 (sheet *pivot table* or `Excel_Images` for screenshot) = summarized average *Sell* by *Beds* 
+- Table 2.1 (sheet *pivot table* or `Excel_Images` for screenshot) = summarized total *Taxes* by *Age* groups 
+- Table 3.1 (sheet *pivot table* or `Excel_Images` for screenshot) = summarized total *Sell* by *Age* group
+  
 Charts:  
-- Bar chart of average *Sell* by *Beds* (Chart 1.1 - sheet *chart* or `Excel_Images` for screenshot, derived from Table 1.1) 
-- Scatter plot of *Living* vs *Sell* (Chart 2.1 - sheet *chart* or `Excel_Images` for screenshot, derived directly from *Sell* and *Living* columns of sheet *data*) 
-- Line chart of total *Sell* across *Age* groups (Chart 3.1 - sheet *chart* or `Excel_Images` for screenshot, derived from Table 3.1)  
+- Chart 1.1 (sheet *chart* or `Excel_Images` for screenshot, derived from Table 1.1) = bar chart of average *Sell* by *Beds*  
+- Chart 2.1 (sheet *chart* or `Excel_Images` for screenshot, derived directly from *Sell* and *Living* columns of sheet *data*) = scatter plot of *Living* vs *Sell*
+- Chart 3.1 (sheet *chart* or `Excel_Images` for screenshot, derived from Table 3.1) = line chart of total *Sell* across *Age* groups
 
 Dashboard:  
 - All pivot tables and charts from sheets *pivot table* and *charts* were copied to sheet *dashboard*:
