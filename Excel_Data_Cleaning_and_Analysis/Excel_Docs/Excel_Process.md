@@ -47,17 +47,17 @@
 ---
 ## 7. Pivot Tables
 - Created 3 pivot tables for summarized insights:
-  - Average *Sell* by *Beds* (Rows: *Beds*; Values: Average of *Sell*)
+  - Table 1.1 (sheet *pivot table* or `Excel_Images` for screenshot) = average *Sell* by *Beds* (Rows: *Beds*; Values: Average of *Sell*)
     - Applied filter to focus on homes with 3 or 4 *Baths*
-  - Total *Taxes* by *Age* groups (Grouped *Age* into brackets and summed *Taxes*)
-  - Total *Sell* by *Age* groups (Grouped *Age* into brackets and summed *Sell*)
+  - Table 2.1 (sheet *pivot table* or `Excel_Images` for screenshot) = total *Taxes* by *Age* groups (Grouped *Age* into brackets and summed *Taxes*)
+  - Table 3.1 (sheet *pivot table* or `Excel_Images` for screenshot) = total *Sell* by *Age* groups (Grouped *Age* into brackets and summed *Sell*)
  
 ---
 ## 8. Charts
 - Made charts for visual analysis:
-  - Bar chart of average *Sell* by *Beds* (Chart 1.1 - sheet *chart*, derived from Table 1.1) 
-  - Scatter plot of *Living* vs *Sell* (Chart 2.1 - sheet *chart*, derived directly from *Sell* and *Living Space* columns of sheet *data*) 
-  - Line chart of total *Sell* across *Age* groups (Chart 3.1 - sheet *chart*, derived from Table 3.1)
+  - Chart 1.1 (sheet *chart* or `Excel_Images` for screenshot, derived from Table 1.1) = bar chart of average *Sell* by *Beds* 
+  - Chart 2.1 (sheet *chart* or `Excel_Images` for screenshot, derived directly from *Sell* and *Living* columns of sheet *data*) = scatter plot of *Living* vs *Sell* 
+  - Chart 3.1 (seesheet *chart* or `Excel_Images` for screenshot, derived from Table 3.1) = line chart of total *Sell* across *Age* groups
   - Customized chart titles, axis labels, and legend for clarity.
 
 ---
@@ -66,6 +66,7 @@
 - Consolidated all pivot tables and charts into this sheet for easy overview.
 - Added slicers to filter dynamically by *Age* groups (Table 1.2) and *Beds* (Tables 2.2 and 3.2).
 - Connected slicers to multiple pivot tables for synchronized filtering (Tables 2.2 and 3.2).
+- (`Excel_Images` for screenshot)
 
 ---
 ## 10. Key Insights
