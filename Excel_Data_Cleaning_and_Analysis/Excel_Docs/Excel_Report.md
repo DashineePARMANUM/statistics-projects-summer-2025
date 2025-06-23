@@ -27,7 +27,13 @@ Charts:
 - Line chart of total *Sell* across *Age* groups (Chart 3.1 - sheet *chart* or folder `Excel_Images` for screenshot, derived from Table 3.1)  
 
 Dashboard:  
-- All pivot tables and charts from sheets *pivot table* and *charts* were copied to sheet *dashboard*.
+- All pivot tables and charts from sheets *pivot table* and *charts* were copied to sheet *dashboard*:
+    - Table 1.2 = copy of Table 1.1
+    - Table 2.2 = copy of Table 2.1
+    - Table 3.2 = copy of Table 3.1
+    - Chart 1.2 = copy of Chart 1.1
+    - Chart 2.2 = copy of Chart 2.1
+    - Chart 3.2 = copy of Chart 3.1
 - Slicers:  
   - *Age* slicer added to Table 1.2
   - Connected *Beds* slicer added to Table 2.2 and 3.2  
