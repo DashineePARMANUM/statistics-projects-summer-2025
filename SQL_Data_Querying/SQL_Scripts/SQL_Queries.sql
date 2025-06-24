@@ -54,7 +54,6 @@ SELECT AVG(Weight) FROM mlb_players WHERE Height > 72;
 -- Joins / Lookups -----------------------------------------------------------------------------------------------------
 
 -- Create a small lookup table for Team information (e.g., Team name and Home City)
--- lookup table creation
 DROP TABLE IF EXISTS team_info;
 CREATE TABLE team_info (Team VARCHAR(10) PRIMARY KEY, Home_City VARCHAR(50));
 -- data creation/insertion into lookup table
