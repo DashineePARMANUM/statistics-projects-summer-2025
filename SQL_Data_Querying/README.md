@@ -1,6 +1,6 @@
 # SQL Data Querying: Major League Baseball Players Dataset
 
-This project showcases data cleaning, analysis, and querying in SQL using a major league baseball players dataset.
+This project showcases data analysis, and querying in SQL using a major league baseball players dataset.
 
 ## Files and Folders
 - **`SQL_Datasets`:**
