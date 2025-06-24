@@ -129,12 +129,12 @@ ALTER TABLE mlb_players ADD CONSTRAINT age_positive CHECK (Age > 0);
 
 ---
 ## 11. Challenges and Solutions
-- *Challenge:* The dataset required manual modification directly in Excel to clean up special characters and fix inconsistent headers for compatibility with SQL.
-  *Solution:* Edited `mlb_player.csv` manually in Excel to ensure proper formatting before importing.
-- *Challenge:* Encountered issues importing data into PostgreSQL due to file path or permission restrictions.
-  *Solution:* Created a temporary folder (e.g., `C:\temp`) with appropriate access permissions to store `mlb_player.csv`, enabling successful import via the `COPY` command.
-- *Challenge:* Running the table creation script multiple times led to errors about the table already existing.
-  *Solution:* Added `DROP TABLE IF EXISTS` before `CREATE TABLE` statements to avoid conflicts.
+- The dataset required manual modification directly in Excel to clean up special characters and fix inconsistent headers for compatibility with SQL.
+  - Edited `mlb_player.csv` manually in Excel to ensure proper formatting before importing.
+- Encountered issues importing data into PostgreSQL due to file path or permission restrictions.
+  - Created a temporary folder (e.g., `C:\temp`) with appropriate access permissions to store `mlb_player.csv`, enabling successful import via the `COPY` command.
+- Running the table creation script multiple times led to errors about the table already existing.
+  - Added `DROP TABLE IF EXISTS` before `CREATE TABLE` statements to avoid conflicts.
   
 ---
 ## 12. Final File
