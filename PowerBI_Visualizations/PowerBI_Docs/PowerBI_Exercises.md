@@ -39,3 +39,6 @@
 - Name the page *Student Performance Dashboard*.
 - Add a title using a Text box.
 - Format colors and fonts for readability.
+
+---
+**Contact:** dashinee.parmanum@gmail.com
