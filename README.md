@@ -31,7 +31,7 @@ Each folder contains:
 ## How to Use This Repo
 
 - Browse by folder to explore individual projects
-- Run the scripts in the corresponding environments for reproducibility (Postgre PgAdmi/Python/R)
+- Run the scripts in the corresponding environments for reproducibility (Postgre - PgAdmin/Python/R)
 - Review Excel and Power BI files using the respective software
 
 ## License
