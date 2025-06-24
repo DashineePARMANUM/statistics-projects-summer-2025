@@ -21,10 +21,12 @@ Even after completing them, I’m continually refining these projects, finding s
 
 Each folder contains:
 - A project description
-- Original/Raw datasets
-- Cleaned datasets
+- Datasets
 - Code/scripts used
-- Visualizations and reports
+- Visualizations
+- Exercises/Questions completed
+- Report
+- Detailed notes
 
 ## How to Use This Repo
 
