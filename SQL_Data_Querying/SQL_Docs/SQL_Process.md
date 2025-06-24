@@ -15,11 +15,23 @@
   ```sql
   DROP TABLE IF EXISTS mlb_players;
   CREATE TABLE mlb_players (Name VARCHAR(100), Team VARCHAR(10), Position VARCHAR(20), Height INT, Weight INT, Age FLOAT);
+  ```
 - Used *COPY* to import data from `mlb_players.csv` into table *mlb_players*.
-
+  ```sql
+  COPY mlb_players(Name, Team, Position, Height, Weight, Age) FROM 'C:\temp\mlb_players.csv' DELIMITER ',' CSV HEADER;
+  ```
 ---
 ## 1. Basic SELECT and Filtering
+```sql
+-- Show all records from the dataset (limit to 10 rows)
+SELECT * FROM mlb_players LIMIT 10;
 
+-- Retrieve all players where Age is greater than 25
+SELECT * FROM mlb_players WHERE Age > 25;
+
+-- Select Name and Height in inches, and create a new column showing Height in centimeters (1 inch = 2.54 cm)
+SELECT Name, Height, Height * 2.54 AS Height_cm FROM mlb_players;
+```
 ---
 ## 2. Conditional Columns (CASE / IF logic)
 
