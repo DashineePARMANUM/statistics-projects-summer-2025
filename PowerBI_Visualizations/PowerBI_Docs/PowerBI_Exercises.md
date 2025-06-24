@@ -16,26 +16,18 @@
 - Create a **pie chart** or **donut chart** showing the distribution of letter grades.
 
 ## 3. Use Slicers and Filters
-- Add a **slicer** to filter by `Grade` (e.g., A, B, C).
-- Add a second slicer to filter by `Last Name` (alphabetically or search box).
+- Add a **slicer** to filter by *Grade* (e.g., A, B, C).
+- Add a second slicer to filter by *Last Name* (alphabetically or search box).
 - Try combining filters (e.g., show only students with Grade "A" whose last name starts with “M”).
 
 ## 4. Create Cards and KPIs
-- Add a **Card** to show the number of students (`Count`).
-- Add a Card to show the **average Final Score**.
-- Add a Card showing the **highest Test 1 score**.
+- Add a *Card* to show the number of students.
+- Add a Card to show the *average Final Score*.
+- Add a Card showing the *highest Test 1 score*.
 
 ## 5. Write Basic DAX
-- Create a **calculated column** called `AvgTestScore`:
-   ```DAX
-   AvgTestScore = ([Test1] + [Test2] + [Test3] + [Test4]) / 4
-   ```
-
-- Create a measure for the overall average of all students' AvgTestScore:
-```DAX
-AverageTestScore = AVERAGE(grades[AvgTestScore])
-```
-
+- Create a **calculated column** called *AvgTestScore*:
+-   Create a measure for the overall average of all students' AvgTestScore:
 - Add a Card for this measure.
 
 ## 6. Add Tooltips and Interactions
