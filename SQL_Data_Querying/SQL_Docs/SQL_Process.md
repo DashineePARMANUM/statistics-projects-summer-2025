@@ -135,6 +135,11 @@ ALTER TABLE mlb_players ADD CONSTRAINT age_positive CHECK (Age > 0);
   - Created a temporary folder (e.g., `C:\temp`) with appropriate access permissions to store `mlb_players.csv`, enabling successful import via the `COPY` command.
 - Running the table creation script multiple times led to errors about the table already existing.
   - Added `DROP TABLE IF EXISTS` before `CREATE TABLE` statements to avoid conflicts.
-    
+
+---
+## 12. Resources
+- The runnable SQL script containing all queries used in this report is saved in `SQL_Queries.sql` (`SQL_Scripts`).
+- This file can be executed directly in PostgreSQL (PgAdmin) to reproduce the analyses and insights described above.
+  
 ---
 **Contact:** dashinee.parmanum@gmail.com
