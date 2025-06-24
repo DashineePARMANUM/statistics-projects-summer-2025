@@ -9,8 +9,9 @@ This report documents the analysis of a home sales dataset using Microsoft Excel
 
 ---
 ## 2. Data Description
-The dataset contains information on 50 homes, including sale and asking prices, physical characteristics, age, and taxation. The data was sourced from the CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html (`homes.csv`).  
-GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt
+- The dataset contains information on 50 homes, including sale and asking prices, physical characteristics, age, and taxation.
+- The data was sourced from the CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html (`homes.csv`).
+- GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt
 
 ---
 ## 3. Methodology
