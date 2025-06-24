@@ -12,6 +12,17 @@
 - Created `mlb_players.csv` which is the modified dataset (removed special characters and renaming columns for compatibility/ease when using SQL).
 - All SQL work was conducted using the pgAdmin application, connected to a local PostgreSQL server.
 - Created a new dataset *statistics-projects-summer-2025* and table *mlb_players*.
+    - ```sql
+      ```sql
+      DROP TABLE IF EXISTS mlb_players;
+      CREATE TABLE mlb_players (
+        Name VARCHAR(100),
+        Team VARCHAR(10),
+        Position VARCHAR(20),
+        Height INT,
+        Weight INT,
+        Age FLOAT
+      );
 - Used *COPY* to import data from `mlb_players.csv` into table *mlb_players*.
 
 ---
