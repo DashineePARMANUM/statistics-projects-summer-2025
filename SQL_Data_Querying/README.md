@@ -29,10 +29,10 @@ This project showcases data analysis and querying in SQL using a major league ba
 
 ## Usage
 - Load `mlb_players.csv` into your PostgreSQL database.
+    - Tip: If you're facing permission issues when importing `mlb_players.csv`, use a temporary directory close to your working database folder.
 - Run `SQL_Queries.sql` (`SQL_Scripts`) using the Query Tool.
 - Review methodology in `SQL_Process.md` (`SQL_Docs`).
 - Explore questions and insights in `SQL_Exercises.md` and `SQL_Report.md` (`SQL_Docs`).
-> Tip: If you're facing permission issues when importing `mlb_players.csv`, use a temporary directory close to your working database folder.
 
 ## Data Source and License
 The dataset used in this project was obtained from the CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html.
