@@ -1,6 +1,6 @@
 -- SQL Data Querying: Major League Baseball Players Dataset
 -- Dashinee Parmanum - dashinee.parmanum@gmail.com
--- Self-directed portfolio project in Statistics and Data Analysis — Summer 2025
+-- Self-directed portfolio project in Statistics and Data Analysis - Summer 2025
 
 -- Set up --------------------------------------------------------------------------------------------------------------
 
