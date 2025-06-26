@@ -3,7 +3,7 @@
 # Power BI Visualization Exercises: Grades Dataset
 
 **Dashinee Parmanum**  
-*Self-directed portfolio project in Statistics and Data Analysis — Summer 2025*
+*Self-directed portfolio project in Statistics and Data Analysis - Summer 2025*
 
 ---
 ## 0. Original Data and Setup
