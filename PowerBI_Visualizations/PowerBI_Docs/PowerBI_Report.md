@@ -7,7 +7,7 @@
 
 ---
 ## 1. Introduction
-This report documents the analysis and visualization of a grades dataset using Power BI, focusing on data visualization.
+This report explores a student grades dataset using Power BI to create clear, interactive visualizations and uncover patterns in student performance.
 
 ---
 ## 2. Data Description
