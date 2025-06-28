@@ -7,7 +7,7 @@
 
 ---
 ## 1. Introduction
-This report documents the analysis of a home sales dataset using Microsoft Excel, focusing on calculating meaningful metrics and creating visualizations to explore real estate trends.
+This report documents the analysis of a grades dataset using Power BI, focusing on data visualization.
 
 ---
 ## 2. Data Description
