@@ -5,11 +5,12 @@
 -
 
 ## Files and Folders
-- `PowerBI_Datasets`:
+- **`PowerBI_Datasets`**:
   - `grades.csv` = Original raw dataset
-- `PowerBI_Docs`:
-  - `PowerBI_Exercises.md` = 
-  - `PowerBI_Process.md` = 
+- **`PowerBI_Docs`**:
+  - `PowerBI_Report.md` = Detailed project overview and insights
+  - `PowerBI_Process.md` = Step-by-step methodology and formula explanations
+  - `PowerBI_Exercises.md` = Exercises/Questions
     
 ## Key Features
 - 
