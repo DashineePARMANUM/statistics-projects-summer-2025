@@ -1,8 +1,7 @@
 ## IN THE WORKS
 
 # Power BI Visualization: Grades Dataset
-
--
+This project showcases data cleaning, transformation, and interactive visualization in Power BI using a student grades dataset.
 
 ## Files and Folders
 - **`PowerBI_Datasets`**:
