@@ -20,11 +20,11 @@ Even after completing them, I’m continually refining these projects, finding s
 | Python for Data Analysis            | Python (pandas, matplotlib)    |
 
 Each folder contains:
-- A project description
+- Project description
 - Datasets
 - Code/scripts used
 - Visualizations
-- Exercises/Questions completed
+- Exercises/Questions
 - Report
 - Detailed notes
 
