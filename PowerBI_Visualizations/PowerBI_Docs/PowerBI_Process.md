@@ -1,6 +1,6 @@
 ## IN THE WORKS
 
-# Power BI Visualization Exercises: Grades Dataset
+# Power BI Visualization Process - Detailed Notes: Grades Dataset
 
 **Dashinee Parmanum**  
 *Self-directed portfolio project in Statistics and Data Analysis - Summer 2025*
