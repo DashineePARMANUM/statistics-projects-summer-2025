@@ -10,6 +10,7 @@ This project showcases data cleaning, transformation, and interactive visualizat
   - `PowerBI_Report.md` = Detailed project overview and insights
   - `PowerBI_Process.md` = Step-by-step methodology and formula explanations
   - `PowerBI_Exercises.md` = Exercises/Questions
+- **`PowerBI_Images`**: Screenshots
     
 ## Key Features
 - 
