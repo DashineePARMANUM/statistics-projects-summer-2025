@@ -15,7 +15,7 @@ This report explores a student grades dataset using Power BI to create clear, in
 
 ---
 ## 3. Methodology
-- Imported the data from `grades.csv` and transformed (use first row as headers + remvoe commas) it for ease of use.
+- Imported the data from `grades.csv` and transformed (used first row as headers + removed commas) it for ease of use.
 - Created multiple slides:
   - *BarChart-AvgTest* = Chart 1.1: Average Test Score (bar chart)
   -  *ColChart-Final* = Chart 2.1: Final Score by Student (column chart)
