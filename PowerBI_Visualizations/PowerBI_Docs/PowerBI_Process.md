@@ -96,7 +96,7 @@
   
 ---
 ## 10. Final File
-- 
+- All slides are saved in `PowwerBI_Final.pbix` (`PowerBI_Dashboards`).
 
 ---
 **Contact:** dashinee.parmanum@gmail.com
