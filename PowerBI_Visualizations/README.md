@@ -31,7 +31,7 @@ This project showcases data cleaning, transformation, and interactive visualizat
 
 ## Usage
 - Open `PowerBI_Final.pbix` (`PowerBI_Dashboards`) in Power BI Desktop to explore and interact with the full report.
-- See slide *Dashboard* for the compilation.
+- See slide *Dashboard* for the final compiled visual summary.
 - For a quick look, `PowerBI_Final.pdf` (`PowerBI_Dashboards`) may be consulted instead.
 - See the detailed project overview and methodology in the documentation in `PowerBI_Docs`.
 
