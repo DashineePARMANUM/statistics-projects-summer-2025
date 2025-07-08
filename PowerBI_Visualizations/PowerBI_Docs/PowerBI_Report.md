@@ -11,7 +11,7 @@ This report explores a student grades dataset using Power BI to create clear, in
 
 ---
 ## 2. Data Description
-- The dataset contains 16 student records with fields for last name, first name, SSN, four test scores (Test1–Test4), a final exam score, and the overall grade.
+- The dataset contains 16 student records with fields for last name, first name, four test scores (Test1–Test4), a final exam score, and the overall grade.
 - The data was sourced from the CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html (`grades.csv`).
 - GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt
 
