@@ -19,10 +19,10 @@ This report explores a student grades dataset using Power BI to create clear, in
 - Created multiple slides:
   - *BarChart-AvgTest* = Chart 1.1: Average Test Score (bar chart)
   -  *ColChart-Final* = Chart 2.1: Final Score by Student (column chart)
-  -  *PieChart-Letter* = Cahrt 3.1: Letter Grade Distribution (pie chart)
+  -  *PieChart-Letter* = Chart 3.1: Letter Grade Distribution (pie chart)
   -  *Basic Visuals* = chart compilation
   -  *Slicers* = duplicate of *Basic Visuals* with slicers added
-  -  *Cards*: Card 1.1: Number of Student + Card 2.1: Average Final Score + Card 3.1: Highest Test 1 + Card 4.1 = Overall Average Test Score Measure (measure was created for Overall Average Test Score)
+  -  *Cards*: Card 1.1: Number of Students + Card 2.1: Average Final Score + Card 3.1: Highest Test 1 + Card 4.1 = Overall Average Test Score Measure (measure was created for Overall Average Test Score)
   -  *Tooltips* = duplicate of *Basic Visuals* with Tooltips added to pie and bar charts.
   -  *Dashboard* = charts, slicers, cards and tooltips compilation
 
