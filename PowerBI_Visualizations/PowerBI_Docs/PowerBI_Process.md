@@ -97,6 +97,15 @@
 ---
 ## 10. Final File
 - All slides are saved in `PowerBI_Final.pbix` (`PowerBI_Dashboards`).
-
+- A pdf version is also available = `PowerBI_Final.pdf` (`PowerBI_Dashboards`):
+  - Page 1 = slide *BarChart-AvgTest*
+  - Page 2 = slide *ColChart-Final*
+  - Page 3 = slide *PieChart-Letter*
+  - Page 4 = slide *Basic Visuals*
+  - Page 5 = slide *Slicers*
+  - Page 6 = slide *Cards*
+  - Page 7 = slide *Tooltips*
+  - Page 8 = slide *Dashboard*
+    
 ---
 **Contact:** dashinee.parmanum@gmail.com
