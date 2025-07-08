@@ -52,7 +52,7 @@
 - Switched to Table View.
 - Created New Column: AverageTestScore = ([Test1] + [Test2] + [Test3] + [Test4]) / 4
 - Created New Measure: OverallAverageTestScore= AVERAGE(grades[AverageTestScore]) 
-- Added Card 4.1 to slide *Cards* = *OverallAverageTestScore*.
+  - Added Card 4.1 to slide *Cards* = *OverallAverageTestScore*.
 
 ---
 ## 6. Add Tooltips and Interactions
