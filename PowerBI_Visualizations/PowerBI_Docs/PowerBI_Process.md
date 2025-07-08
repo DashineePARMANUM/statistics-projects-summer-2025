@@ -12,8 +12,8 @@
 ## 1. Import and Clean Data
 - Imported the data from `grades.csv`.
 - Transformed data:
-  - Turned on *Use first row as headers*.
-   - Removed all , (comas) in the cells.
+  - Turned on 'Use first row as headers'.
+   - Removed all , (commas) in the cells.
 - Confirmed that the data types were set up properly.
 
 ---
@@ -23,7 +23,7 @@
 - Created slide *ColChart-Final*.
   - Added Chart 2.1 = column chart displaying the final score by student.
 - Created slide *PieChart-Letter*.
-  - Added Chart 3.1 = pie chart dispalying the percentage of student who obtianed each grade (Count is dispalyed when hovering over segment).
+  - Added Chart 3.1 = pie chart displaying the percentage of student who obtained each grade (Count is displayed when hovering over segment).
 - Created slide *Basic Visuals* and copied all charts:
   -  Chart 1.2 = copy of Chart 1.1
   -  Chart 2.2 = copy of Chart 2.1
@@ -36,9 +36,9 @@
   -  Chart 1.3 = copy of Chart 1.2
   -  Chart 2.3 = copy of Chart 2.2
   -  Chart 3.3 = copy of Chart 3.2
-- Created Slicer 1.1 = allows to select any of the grades, creating a filter on the all charts on the slide.
-- Created Slicer 2.1 = allows to select any student last name, creating a filter on the all charts on the slide.
-- The slicers may be combined by selecting any grade in Slicer 1.1 and any last anme in Slicer 2.1. 
+- Created Slicer 1.1 = allows to select any of the grades, creating a filter on all charts on the slide.
+- Created Slicer 2.1 = allows to select any student last name, creating a filter on all charts on the slide.
+- The slicers may be combined by selecting any grade in Slicer 1.1 and any last name in Slicer 2.1. 
 
 ---
 ## 4. Create Cards and KPIs
@@ -68,7 +68,7 @@
 
 ---
 ## 7.  Create a Simple Dashboard
-- Duplicated slide *Slicers* and renamed it *Dashbaord*.
+- Duplicated slide *Slicers* and renamed it *Dashboard*.
 - Renamed the charts:
   -  Chart 1.5 = copy of Chart 1.3
   -  Chart 2.5 = copy of Chart 2.3
@@ -78,17 +78,22 @@
   -  Card 2.2 = copy of Card 2.1
   -  Card 3.2 = copy of Card 3.1
   -  Card 4.2 = copy of Card 4.1
-- Added texbox for title = *Student Performance Dashboard*.
-- Moved charts, cards and textbox around to fit everthing cleanly.
+- Added textbox for title = *Student Performance Dashboard*.
+- Moved charts, cards and textbox around to fit everything cleanly.
     
 ---
 ## 8. Key Insights
-- 
+- Students with higher average test scores generally received higher final grades.
+- The majority of students fall into the B grade category based on the pie chart.
+- The lowest performance on average occurred in Test 2, as shown in the bar chart.
 
 ---
 ## 9. Challenges and Solutions
-- 
-
+- `grades.csv` had , (commas) within cells creating a formatting issues.
+  - Transformed data by replacing , with blanks.
+- Trouble fitting evertthign on slide *Dashbaord*.
+  - Made the charts and cards's writing smaller.
+  
 ---
 ## 10. Final File
 - 
