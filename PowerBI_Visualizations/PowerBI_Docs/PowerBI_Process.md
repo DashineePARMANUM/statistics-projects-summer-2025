@@ -92,7 +92,7 @@
 - `grades.csv` had , (commas) within cells creating a formatting issues.
   - Transformed data by replacing , with blanks.
 - Trouble fitting everything on slide *Dashboard*.
-  - Made the charts and text on cards smaller.
+  - Changed the size of the charts, cards, slicers and text when needed.
   
 ---
 ## 10. Final File
