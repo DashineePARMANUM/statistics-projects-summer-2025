@@ -26,8 +26,8 @@
 - Add a Card showing the highest Test 1 score.
 
 ## 5. Write Basic DAX
-- Create a calculated column called *AvgTestScore*:
-- Create a measure for the overall average of all students' 1*AvgTestScore*:
+- Create a calculated column called *AvgTestScore*.
+- Create a measure for the overall average of all students' 1*AvgTestScore*.
 - Add a Card for this measure.
 
 ## 6. Add Tooltips and Interactions
