@@ -23,7 +23,7 @@ This project showcases data cleaning, transformation, and interactive visualizat
 
 ## Skills Demonstrated
 - Data import and transformation in Power BI.
-- Designing and organizing interactive reports
+- Designing and organizing interactive reports.
 - Writing basic DAX formulas.
 - Using slicers, cards, and tooltips for interactivity.
 - Building clear and structured visual summaries.
