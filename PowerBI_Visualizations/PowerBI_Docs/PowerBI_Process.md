@@ -1,5 +1,3 @@
-## IN THE WORKS
-
 # Power BI Visualization Process - Detailed Notes: Grades Dataset
 
 **Dashinee Parmanum**  
@@ -7,19 +5,27 @@
 
 ---
 ## 0. Original Data and Setup
-- 
+- Started with a blank project.
 
 ---
 ## 1. Import and Clean Data
 - Import data.
+  - Imported the data from `grades.csv`.
 - Inspect the fields: Rename them if needed.
-- Set appropriate data types.
+  - No renaming, but data was transformed:
+    - Turned on *Use first row as headers*.
+    - Removed all , (comas) in the cells.
+- Set appropriate data types.  
+  - Confirmed that the data types were set up properly.
 
 ---
 ## 2. Create Basic Visuals
 - Create a bar chart showing the average score of each test.
+  - Created Chart 1.1 on slide *BarChart-AvgTest* which is a bar chart displaying the average score of each test.
 - Create a column chart showing the final scores by student.
+  - Created Chart 2.1 on slide *ColChart-Final* which is a column chart displaying the final score by student.
 - Create a pie chart or donut chart showing the distribution of letter grades.
+  - Created Chart 3.1 on slide *PieChart-Letter* which is a pie chart dispalying the percentage of student who obtianed each grade (Count is dispalyed when hoverign on a specific segment).
 
 ---
 ## 3. Use Slicers and Filters
