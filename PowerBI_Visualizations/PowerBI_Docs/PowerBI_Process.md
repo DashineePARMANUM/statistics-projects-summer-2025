@@ -33,9 +33,9 @@
 ## 3. Use Slicers and Filters
 - Duplicated slide *Basic Visuals* and renamed it *Slicers*.
 - Renamed the charts:
-  -  Chart 1.3 = copy of Chart 1.1
-  -  Chart 2.3 = copy of Chart 2.1
-  -  Chart 3.3 = copy of Chart 3.1
+  -  Chart 1.3 = copy of Chart 1.2
+  -  Chart 2.3 = copy of Chart 2.2
+  -  Chart 3.3 = copy of Chart 3.2
 - Created Slicer 1.1 = allows to select any of the grades, creating a filter on the all charts on the slide.
 - Created Slicer 2.1 = allows to select any student last name, creating a filter on the all charts on the slide.
 - The slicers may be combined by selecting any grade in Slicer 1.1 and any last anme in Slicer 2.1. 
@@ -50,22 +50,37 @@
 ---
 ## 5. Write Basic DAX
 - Switched to Table View.
-- Created New Column: AverageTestScore = ([Test1] + [Test2] + [Test3] + [Test4]) / 4
-- Created New Measure: OverallAverageTestScore= AVERAGE(grades[AverageTestScore]) 
+- Created New Column: AverageTestScore = ([Test1] + [Test2] + [Test3] + [Test4]) / 4.
+- Created New Measure: OverallAverageTestScore= AVERAGE(grades[AverageTestScore]).
   - Added Card 4.1 to slide *Cards* = *OverallAverageTestScore*.
 
 ---
 ## 6. Add Tooltips and Interactions
-- Add tooltips to your charts (e.g., when hovering over a bar, show student name and average score).
-- Customize interactions between charts (e.g., clicking a slice of the pie filters the bar chart).
+- Switch back to Report View.
+- Duplicated slide *Basic Visuals* and renamed it *Tooltips*.
+- Renamed the charts:
+  -  Chart 1.4 = copy of Chart 1.2
+  -  Chart 2.4 = copy of Chart 2.2
+  -  Chart 3.4 = copy of Chart 3.2
+- Added tooltips:
+  - Dragged *Max of AverageTestScore* to Tooltips for Chart 1.4.
+  - Dragged *Average of Test1* to Tooltips for Chart 3.4.
 
 ---
 ## 7.  Create a Simple Dashboard
-- Arrange your charts, slicers, and cards into a clean layout on one page.
-- Name the page *Student Performance Dashboard*.
-- Add a title using a Text box.
-- Format colors and fonts for readability.
-
+- Duplicated slide *Slicers* and renamed it *Dashbaord*.
+- Renamed the charts:
+  -  Chart 1.5 = copy of Chart 1.3
+  -  Chart 2.5 = copy of Chart 2.3
+  -  Chart 3.5 = copy of Chart 3.3
+- Copied the Cards from slide *Cards* and renamed them:
+  -  Card 1.2 = copy of Card 1.1
+  -  Card 2.2 = copy of Card 2.1
+  -  Card 3.2 = copy of Card 3.1
+  -  Card 4.2 = copy of Card 4.1
+- Added texbox for title = *Student Performance Dashboard*.
+- Moved around charts, cards and textbox to fit everthing cleanly.
+    
 ---
 ## 8. Key Insights
 - 
