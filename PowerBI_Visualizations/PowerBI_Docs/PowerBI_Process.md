@@ -53,11 +53,11 @@
 ## 4. Create Cards and KPIs
 - Created slide *Cards*.
 - Add a Card to show the number of students.
-  - Added Card 1.1 = Count of *Last name* = shows number of students.
-- Add a Card to show the average *Final Score*.
-  - Added Card 2.1 = Average of *Final* = shows average mark of final.
-- Add a Card showing the highest *Test 1 score*.
-  - Added Card 3.1 = Max of *Test1* = shows highest mark for test 1.
+  - Added Card 1.1 = *Count of Last name* = shows number of students.
+- Add a Card to show the average Final Score.
+  - Added Card 2.1 = *Average of Final* = shows average mark of final.
+- Add a Card showing the highest Test 1 score.
+  - Added Card 3.1 = *Max of Test1* = shows highest mark for test 1.
 
 ---
 ## 5. Write Basic DAX
