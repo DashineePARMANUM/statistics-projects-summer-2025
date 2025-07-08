@@ -61,8 +61,9 @@
 
 ---
 ## 5. Write Basic DAX
-- Create a calculated column called *AvgTestScore*:
-- Create a measure for the overall average of all students' 1*AvgTestScore*:
+- Switched to Table View.
+- Create a calculated column called *AvgTestScore*.
+- Create a measure for the overall average of all students' 1*AvgTestScore*.
 - Add a Card for this measure.
 
 ---
