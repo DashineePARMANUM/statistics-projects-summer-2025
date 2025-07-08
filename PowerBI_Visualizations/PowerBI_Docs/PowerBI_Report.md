@@ -34,11 +34,11 @@ This report explores a student grades dataset using Power BI to create clear, in
 
 ---
 ## 5. Reflection and Learning Outcomes
-
+This project strengthened my ability to use Power BI for real-world data analysis. I learned how to transform raw data, build interactive visuals, and design a dashboard that communicates key findings clearly. These skills are directly applicable to business intelligence and statistical reporting tasks.
 
 ---
 ## 6. Conclusion
-
+I demonstrated how Power BI can be used to uncover trends by integrating visual storytelling with data analysis; the final dashboard offers meaningful insights.
 
 ---
 **Contact:** dashinee.parmanum@gmail.com
