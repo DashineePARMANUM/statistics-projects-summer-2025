@@ -5,7 +5,7 @@
 
 ---
 ## 0. Original Data and Setup
-- `grades.csv` contains 16 students including their first and last names, marks for test 1, 2, 3 and 4, and final marks and letter grade (CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html - GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt).
+- `grades.csv` contains 16 students including their first and last names, marks for test 1-4, and final marks and letter grade (CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html - GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt).
 - Started with a blank project.
 
 ---
