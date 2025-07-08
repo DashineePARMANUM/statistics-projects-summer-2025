@@ -63,8 +63,11 @@
 ## 5. Write Basic DAX
 - Switched to Table View.
 - Create a calculated column called *AvgTestScore*.
+  - Created New Column: AverageTestScore = ([Test1] + [Test2] + [Test3] + [Test4]) / 4
 - Create a measure for the overall average of all students' 1*AvgTestScore*.
+  - Created New Measure: OverallAverageTestScore= AVERAGE(grades[AverageTestScore]) 
 - Add a Card for this measure.
+ - Added Card 4.1 to slide *Cards* = *OverallAverageTestScore*.
 
 ---
 ## 6. Add Tooltips and Interactions
