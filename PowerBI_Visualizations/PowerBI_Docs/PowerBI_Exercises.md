@@ -22,8 +22,8 @@
 
 ## 4. Create Cards and KPIs
 - Add a Card to show the number of students.
-- Add a Card to show the average *Final Score*.
-- Add a Card showing the highest *Test 1 score*.
+- Add a Card to show the average Final Score.
+- Add a Card showing the highest Test 1 score.
 
 ## 5. Write Basic DAX
 - Create a calculated column called *AvgTestScore*:
