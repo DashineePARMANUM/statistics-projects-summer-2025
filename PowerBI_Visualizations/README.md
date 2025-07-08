@@ -10,7 +10,7 @@ This project showcases data cleaning, transformation, and interactive visualizat
   - `PowerBI_Exercises.md` = Exercises/Questions
 - **`PowerBI_Images`** = Screenshots
 - **`PowerBI_Dashboards`**:
-  - `PowerBI_Final.pbix` = Power BI file with charts, slicers, cards, tooltips and dashbaord
+  - `PowerBI_Final.pbix` = Power BI file with charts, slicers, cards, tooltips and dashboard
   - `PowerBI_Final.pdf` = PDF version of `PowerBI_Final.pbix`
     
 ## Key Features
