@@ -42,7 +42,7 @@
 - Add a slicer to filter by *Grade* (e.g., A, B, C).
   - Created Slicer 1.1 which allowed to select any of the grades, creating a filter on the all charts on the slide.
 - Add a second slicer to filter by *Last Name* (alphabetically or search box).
-  - Created Slicer 2.2 which allowed to select any student last name, creating a filter on the all charts on the slide.
+  - Created Slicer 2.1 which allowed to select any student last name, creating a filter on the all charts on the slide.
 - Try combining filters (e.g., show only students with *Grade* "A" whose *Last Name* starts with “M”).
   - The slicers may be combined by selecting any grade in Slicer 1.1 and any last anme in Slicer 2.1. 
 
