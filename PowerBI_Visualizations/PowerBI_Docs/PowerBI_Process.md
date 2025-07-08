@@ -79,7 +79,7 @@
   -  Card 3.2 = copy of Card 3.1
   -  Card 4.2 = copy of Card 4.1
 - Added texbox for title = *Student Performance Dashboard*.
-- Moved around charts, cards and textbox to fit everthing cleanly.
+- Moved charts, cards and textbox around to fit everthing cleanly.
     
 ---
 ## 8. Key Insights
