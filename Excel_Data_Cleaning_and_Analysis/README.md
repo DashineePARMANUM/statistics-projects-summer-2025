@@ -18,19 +18,19 @@ This project showcases data cleaning, analysis, and visualization in Excel using
 - **`Excel_Images`** = screenshots
 
 ## Key Features
-- Conditional formatting for visual insights
-- Agent mapping using VLOOKUP
-- Data validation and sheet protection
-- Pivot tables and dashboards
-- Bar, scatter, and line charts
-- Mini dashboard with slicers
+- Conditional formatting for visual insights.
+- Agent mapping using VLOOKUP.
+- Data validation and sheet protection.
+- Pivot tables and dashboards.
+- Bar, scatter, and line charts.
+- Mini dashboard with slicers.
 
 ## Skills Demonstrated
-- Excel data cleaning
-- Logical formulas: IF, SUMIF, COUNTIF
-- Lookup functions: VLOOKUP
-- Pivot tables and dashboards
-- Cell referencing and sheet protection
+- Excel data cleaning.
+- Logical formulas: IF, SUMIF, COUNTIF.
+- Lookup functions: VLOOKUP.
+- Pivot tables and dashboards.
+- Cell referencing and sheet protection.
 
 ## Usage
 - Open `homes.xlsx` with Microsoft Excel (version 2016 or later recommended) to explore the cleaned data, pivot tables, and dashboard.
