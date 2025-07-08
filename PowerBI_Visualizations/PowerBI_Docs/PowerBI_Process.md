@@ -12,7 +12,7 @@
 ## 1. Import and Clean Data
 - Imported the data from `grades.csv`.
 - Transformed data:
-  - Turned on 'Use first row as headers'.
+  - Enabled 'Use first row as headers'.
    - Removed all , (commas) in the cells.
 - Confirmed that the data types were set up properly.
 
@@ -23,7 +23,7 @@
 - Created slide *ColChart-Final*.
   - Added Chart 2.1 = column chart displaying the final score by student.
 - Created slide *PieChart-Letter*.
-  - Added Chart 3.1 = pie chart displaying the percentage of student who obtained each grade (Count is displayed when hovering over segment).
+  - Added Chart 3.1 = pie chart displaying the percentage of students who obtained each grade (Count is displayed when hovering over segment).
 - Created slide *Basic Visuals* and copied all charts:
   -  Chart 1.2 = copy of Chart 1.1
   -  Chart 2.2 = copy of Chart 2.1
@@ -91,8 +91,8 @@
 ## 9. Challenges and Solutions
 - `grades.csv` had , (commas) within cells creating a formatting issues.
   - Transformed data by replacing , with blanks.
-- Trouble fitting evertthign on slide *Dashbaord*.
-  - Made the charts and cards's writing smaller.
+- Trouble fitting everything on slide *Dashboard*.
+  - Made the charts and text on cards smaller.
   
 ---
 ## 10. Final File
