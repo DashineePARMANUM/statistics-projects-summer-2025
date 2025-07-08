@@ -22,12 +22,15 @@
 ---
 ## 2. Create Basic Visuals
 - Create a bar chart showing the average score of each test.
-  - Created Chart 1.1 on slide *BarChart-AvgTest* which is a bar chart displaying the average score of each test.
+  - Created slide *BarChart-AvgTest*.
+  - Added Chart 1.1 = bar chart displaying the average score of each test.
 - Create a column chart showing the final scores by student.
-  - Created Chart 2.1 on slide *ColChart-Final* which is a column chart displaying the final score by student.
+  - Created slide *ColChart-Final*.
+  - Added Chart 2.1 = column chart displaying the final score by student.
 - Create a pie chart or donut chart showing the distribution of letter grades.
-  - Created Chart 3.1 on slide *PieChart-Letter* which is a pie chart dispalying the percentage of student who obtianed each grade (Count is dispalyed when hovering over segment).
-- Compiled all charts on slide *Basic Visuals* and renamed the charts:
+  - Created slide *PieChart-Letter*.
+  - Added Chart 3.1 = pie chart dispalying the percentage of student who obtianed each grade (Count is dispalyed when hovering over segment).
+- Created slide *Basic Visuals* and copied all charts:
   -  Chart 1.2 = copy of Chart 1.1
   -  Chart 2.2 = copy of Chart 2.1
   -  Chart 3.2 = copy of Chart 3.1
@@ -35,22 +38,26 @@
 ---
 ## 3. Use Slicers and Filters
 - Duplicated slide *Basic Visuals* and renamed it *Slicers*.
-- Renamed the chart:
+- Renamed the charts:
   -  Chart 1.3 = copy of Chart 1.1
   -  Chart 2.3 = copy of Chart 2.1
   -  Chart 3.3 = copy of Chart 3.1
 - Add a slicer to filter by *Grade* (e.g., A, B, C).
-  - Created Slicer 1.1 which allowed to select any of the grades, creating a filter on the all charts on the slide.
+  - Created Slicer 1.1 = allows to select any of the grades, creating a filter on the all charts on the slide.
 - Add a second slicer to filter by *Last Name* (alphabetically or search box).
-  - Created Slicer 2.1 which allowed to select any student last name, creating a filter on the all charts on the slide.
+  - Created Slicer 2.1 = allows to select any student last name, creating a filter on the all charts on the slide.
 - Try combining filters (e.g., show only students with *Grade* "A" whose *Last Name* starts with “M”).
   - The slicers may be combined by selecting any grade in Slicer 1.1 and any last anme in Slicer 2.1. 
 
 ---
 ## 4. Create Cards and KPIs
+- Created slide *Cards*.
 - Add a Card to show the number of students.
+  - Added Card 1.1 = Count of *Last name* = shows number of students.
 - Add a Card to show the average *Final Score*.
+  - Added Card 2.1 = Average of *Final* = shows average mark of final.
 - Add a Card showing the highest *Test 1 score*.
+  - Added Card 3.1 = Max of *Test1* = shows highest mark for test 1.
 
 ---
 ## 5. Write Basic DAX
