@@ -84,7 +84,7 @@
 ---
 ## 8. Key Insights
 - Students with higher average test scores generally received higher final grades.
-- The majority of students fall into the B grade category based on the pie chart.
+- The majority of students fall into the B grade as seen on the pie chart.
 - The lowest performance on average occurred in Test 2, as shown in the bar chart.
 
 ---
