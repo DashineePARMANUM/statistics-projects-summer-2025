@@ -1,5 +1,3 @@
-## IN THE WORKS
-
 # Power BI Visualization Report: Grades Dataset
 
 **Dashinee Parmanum**  
