@@ -5,7 +5,7 @@ Welcome to my self-directed summer 2025 portfolio of statistics and data analysi
 ## About
 
 As a Statistics undergraduate, I wanted to complement my university coursework by focusing on real-world data projects and sharpening industry-relevant skills. 
-This Summer, I am going to complete multiple projects that demonstrate data cleaning, analysis, visualization, and reporting.
+This summer, I am going to complete multiple mini projects that demonstrate data cleaning, analysis, visualization, and reporting.
 
 Even after completing them, I’m continually refining these projects, finding small mistakes, rewording explanations, and tweaking code in an effort to perfect my work and deepen my understanding.
 
