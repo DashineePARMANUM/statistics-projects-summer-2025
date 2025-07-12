@@ -11,13 +11,13 @@ Even after completing them, I’m continually refining these projects, finding s
 
 ## Projects Overview
 
-| Focus Areas                         | Tools & Skills                 |
-|-------------------------------------|--------------------------------|
-| Excel Basics & Data Cleaning        | Excel (formulas, pivot tables) |
-| SQL for Data Querying               | SQL (joins, aggregations)      |
-| Data Visualization                  | Power BI                       |
-| Statistical Analysis & Modeling     | R (tidyverse, modeling)        |
-| Python for Data Analysis            | Python (pandas, matplotlib)    |
+| Focus Areas                         | Tools & Skills |
+|-------------------------------------|----------------|
+| Excel Basics & Data Cleaning        | Excel          |
+| SQL for Data Querying               | SQL            |
+| Data Visualization                  | Power BI       |
+| Statistical Analysis & Modeling     | R              |
+| Python for Data Analysis            | Python         |
 
 Each folder contains:
 - Project description
