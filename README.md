@@ -16,7 +16,7 @@ Even after completing them, I’m continually refining these projects, finding s
 | **Excel** Data Cleaning and Analysis      | Home Sales                    |
 | **SQL** Data Querying                     | Major League Baseball Players |
 | **Power BI** Visualization                | Grades                        |
-| **R** Statistical Modeling                | -                             |
+| **R** Statistical Modeling                | College Freshmen              |
 | **Python** Data Analysis                  | -                             |
 
 Each folder contains:
