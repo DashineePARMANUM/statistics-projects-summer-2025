@@ -1,6 +1,6 @@
 # Statistics Projects - Summer 2025
 
-Welcome to my self-directed summer 2025 portfolio of statistics and data analysis projects. This repository showcases hands-on projects designed to build practical skills using tools such as **Excel**, **Power BI**, **R**, and **Python**.
+Welcome to my self-directed summer 2025 portfolio of statistics and data analysis projects. This repository showcases hands-on projects designed to build practical skills using tools such as **Excel**, **SQL**, **Power BI**, **R**, and **Python**.
 
 ## About
 
