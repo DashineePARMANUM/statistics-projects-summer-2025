@@ -6,7 +6,7 @@
 ## Files and Folders
 - **`R_Datasets`**:
   - `freshman_kgs.csv` = Original raw dataset
-- **`PowerBI_Docs`**:
+- **`R_Docs`**:
   - `R_Report.md` = Detailed project overview and insights
   - `R_Process.md` = Step-by-step methodology and formula explanations
   - `R_Exercises.md` = Exercises/Questions
