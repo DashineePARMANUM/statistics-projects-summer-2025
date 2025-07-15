@@ -39,6 +39,7 @@ Dashboard:
   - *Age* slicer added to Table 1.2
   - Connected *Beds* slicer added to Table 2.2 and 3.2  
 - (`Excel_Images` for screenshot)
+
 ---
 ## 4. Key Insights
 - Six-bedroom homes tend to command the highest average *Sell* as seen in Table 1.2 in sheet *dashboard*.
