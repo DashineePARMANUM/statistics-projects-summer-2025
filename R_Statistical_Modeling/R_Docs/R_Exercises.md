@@ -1,5 +1,3 @@
-## IN THE WORKS
-
 # R Statistical Modeling Exercises: College Freshmen Dataset
 
 **Dashinee Parmanum**  
