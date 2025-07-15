@@ -10,9 +10,9 @@
   - `R_Report.md` = Detailed project overview and insights
   - `R_Process.md` = Step-by-step methodology and formula explanations
   - `R_Exercises.md` = Exercises/Questions
-- **`PowerBI_Scripts`**:
-  - `PowerBI_Final.pbix` = Power BI file with charts, slicers, cards, tooltips and dashboard
-
+- **`R_Scripts`**:
+  - `` =
+    
 ## Key Features
 - 
 
