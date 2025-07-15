@@ -12,6 +12,7 @@
   - `R_Exercises.md` = Exercises/Questions
 - **`R_Scripts`**:
   - `-` =
+- **`R_Images`** = Screenshots
     
 ## Key Features
 - 
