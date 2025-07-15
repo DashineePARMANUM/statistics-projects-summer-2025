@@ -13,7 +13,7 @@
 - Are there any missing values? If so, where?
 
 ## 2. Summary Statistics
-- hat is the average September weight and April weight for the full group?
+- What is the average September weight and April weight for the full group?
 - Compute the average weight change from September to April.
 - Do males or females have a higher average weight change?
 - What is the standard deviation of BMI in September vs April?
