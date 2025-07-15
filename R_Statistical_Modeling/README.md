@@ -1,11 +1,19 @@
 ## IN THE WORKS
 
 # R Statistical Modeling: College Freshmen Dataset
-
 -
 
 ## Files and Folders
--
+- **`PowerBI_Datasets`**:
+  - `grades.csv` = Original raw dataset
+- **`PowerBI_Docs`**:
+  - `PowerBI_Report.md` = Detailed project overview and insights
+  - `PowerBI_Process.md` = Step-by-step methodology and formula explanations
+  - `PowerBI_Exercises.md` = Exercises/Questions
+- **`PowerBI_Images`** = Screenshots
+- **`PowerBI_Dashboards`**:
+  - `PowerBI_Final.pbix` = Power BI file with charts, slicers, cards, tooltips and dashboard
+  - `PowerBI_Final.pdf` = PDF version of `PowerBI_Final.pbix`
 
 ## Key Features
 - 
