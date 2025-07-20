@@ -11,7 +11,8 @@
   - `R_Process.md` = Step-by-step methodology and formula explanations
   - `R_Exercises.md` = Exercises/Questions
 - **`R_Scripts`**:
-  - `-` =
+  - `R_Final.R` = code with explantion
+  - `R_Final_Ans.R` = code with data output
 - **`R_Images`** = Screenshots
     
 ## Key Features
