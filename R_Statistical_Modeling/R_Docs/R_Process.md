@@ -13,11 +13,10 @@
 ---
 ## 1. Import and Inspect
 
-## Load the dataset into R and display the first few rows.
 ```R
+## Load the dataset into R and display the first few rows.
 data <- read.csv("freshman_kgs.csv")
 head(data)
-```
 
 ## What are the column names?- Are they formatted properly (no spaces, lowercase, etc.)?
 colnames(data) # sex, weight..sep., weight..apr., bmi..sep., bmi..apr.
@@ -31,7 +30,7 @@ str(data) # chr, int, int, num, num
 
 ## Are there any missing values? If so, where?
 colSums(is.na(data)) # no NAs in any cols
-
+```
 ---
 ## 2. Summary Statistics
 
