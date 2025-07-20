@@ -117,6 +117,8 @@ ggplot(data, aes(x = `weight_change`)) + geom_histogram() +
   labs(title = "Histogram of Weight Change", x = "Weight Change", y = "Frequency") + 
   theme(plot.title = element_text(hjust = 0.5))
 ```
+`R_Images` may be consulted for all screenshots.
+
 ---
 ## 4. Statistical Testing
 ```R
