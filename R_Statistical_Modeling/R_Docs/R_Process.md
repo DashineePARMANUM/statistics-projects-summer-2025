@@ -156,11 +156,16 @@ qqline(model$residuals)
 ```
 ---
 ## 6. Key Insights
-- 
-
+- The average weight of students changed from September to April.
+- Males did not gain more weight on average than females over the academic year.
+- The strongest predictor of April weight is September weight, with a high R-squared value (~0.88), indicating a strong linear relationship.
+  
 ---
 ## 7. Challenges and Solutions
-- 
+- Residual plot generation with ggplot: *ggplot(model, aes(...))* didn’t work since *model* is not a data frame.
+  - Switched to base R plotting for residual analysis to avoid unnecessary transformation or copying.
+- Sex-based comparisons: Creating subsets for males and females was straightforward
+  - However, I also learned to use *aggregate()* for more concise group-based statistics.
 
 ---
 ## 8. Final File
