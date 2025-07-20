@@ -12,7 +12,7 @@
   - `R_Exercises.md` = Exercises/Questions
 - **`R_Scripts`**:
   - `R_Final.R` = code with explantion
-  - `R_Final+Ans.R` = code with data output
+  - `R_Final+Ans.R` = code with output
 - **`R_Images`** = Screenshots
     
 ## Key Features
