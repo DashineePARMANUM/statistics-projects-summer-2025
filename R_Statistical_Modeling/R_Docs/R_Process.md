@@ -5,7 +5,7 @@
 
 ---
 ## 0. Original Data and Setup
-- `freshman_kgs.csv` contains 67 college freshmen including their sex, weight(kg) in Septemer and April, and BMI in September and April.
+- `freshman_kgs.csv` contains 67 college freshmen including their sex, weight(kg) in September and April, and BMI in September and April.
 - All work was conducted using R Studio application.
 
 ---
