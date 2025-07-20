@@ -1,5 +1,3 @@
-## IN THE WORKS
-
 # R Statistical Modeling Process - Detailed Notes: College Freshmen Dataset
 
 **Dashinee Parmanum**  
