@@ -12,7 +12,6 @@
 
 ---
 ## 1. Import and Inspect
-
 ```R
 ## Load the dataset into R and display the first few rows.
 data <- read.csv("freshman_kgs.csv")
@@ -33,7 +32,7 @@ colSums(is.na(data)) # no NAs in any cols
 ```
 ---
 ## 2. Summary Statistics
-
+```R
 ## What is the average September weight and April weight for the full group?
 average_weight_september <- mean(data$weight..sep.) # average_weight_september = 65.0597
 average_weight_april <- mean(data$weight..apr.) # average_weight_april = 66.23881
@@ -67,9 +66,10 @@ StdDev_April <- sd(data$bmi..apr.) # StdDev_April = 3.602527
 
 ## Which student gained the most weight?
 data[which.max(data$weight_change), ] # row 67, weight_change of 11
-
+```
 ---
 ## 3. Data Visualization
+```R
 library(ggplot2) # library for plots
 
 ## Create a histogram of April weights.
@@ -107,10 +107,10 @@ ggplot(data, aes(x = `weight_change`)) + geom_histogram() +
   labs(title = "Histogram of Weight Change", x = "Weight Change", y = "Frequency") + 
   theme(plot.title = element_text(hjust = 0.5))
 # geom_histogram = build histogram
-
+```
 ---
 ## 4. Statistical Testing
-
+```R
 ## Perform a paired t-test to determine if average weight changed significantly from September to April.
 t.test(data$weight..sep., data$weight..apr., paired = TRUE)
 # t = -2.4822, df = 66, p-value = 0.01561
@@ -128,10 +128,10 @@ t.test(weight_change ~ sex, data)
 # sample estimates: mean in group F = 1.20000; mean in group M = 1.15625 
 # p > 0.05 = no statistically significant difference in weight change between males and females
 # CI contains 0 = supports conclusion of no significant difference
-
+```
 ---
 ## 5. Linear Regression
-
+```R
 ## Build a linear regression model to predict April weight using September weight.
 model <- lm(`weight..apr.` ~ `weight..sep.`, data)
 summary(model)
@@ -169,7 +169,7 @@ hist(model$residuals, main = "Histogram of Residuals", xlab = "Residuals")
 # Q-Q plot with x-y line
 qqnorm(model$residuals)
 qqline(model$residuals)
-
+```
 ---
 ## 6. Key Insights
 - 
