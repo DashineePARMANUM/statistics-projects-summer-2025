@@ -154,7 +154,7 @@ qqline(model$residuals)
 ```
 ---
 ## 6. Key Insights
-- The average weight of students changed from September to April.
+- The average weight of students changed significantly from September to April.
 - There was no statistically significant difference in average weight change between males and females from September to April.
 - The strongest predictor of April weight is September weight, with a high R-squared value (~0.88), indicating a strong linear relationship.
   
