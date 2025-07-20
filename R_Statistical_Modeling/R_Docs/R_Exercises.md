@@ -24,7 +24,7 @@
 - Create a boxplot comparing April BMI by sex.
 - Make a scatterplot of September vs April weight.
 - Add a regression line to the scatterplot.
-- Plot a histogram of weight changes (April - September).
+- Plot a histogram of weight changes (April-September).
 
 ## 4. Statistical Testing
 - Perform a paired t-test to determine if average weight changed significantly from September to April.
