@@ -22,13 +22,24 @@ This project demonstrates data analysis, visualization, and statistical modeling
 - **`R_Images`** = Screenshots
     
 ## Key Features
-- 
+- Data import and inspection using read.csv.
+- Summary statistics and exploratory data analysis.
+- Data visualization with *ggplot2* (histograms, scatterplots, boxplots).
+- Statistical inference via t-tests for group comparisons using built-in functions.
+- Linear regression modeling using *lm* function with residual diagnostics.
 
 ## Skills Demonstrated
-- 
+- Data cleaning.
+- Data visualization.
+- Application of hypothesis testing.
+- Building and interpreting linear regression models.
+- Diagnostic assessment of model assumptions.
 
 ## Usage
--
+- Download dataset in the same environment.
+- Run `R_Final.R` or `R_Final+Ans.R` (`R_Scripts`).
+- Load the dataset freshman_kgs.csv into R.
+- Review the detailed analysis and key insights in `R_Report.md` (`R_Docs`).
 
 ## Data Source and License
 The dataset used in this project was obtained from the CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html.
