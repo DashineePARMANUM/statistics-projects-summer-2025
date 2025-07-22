@@ -4,6 +4,7 @@
 *Self-directed portfolio project in Statistics and Data Analysis - Summer 2025*
 
 ---
+
 This project showcases data analysis and querying in SQL using a major league baseball players dataset.
 
 ## Files and Folders
