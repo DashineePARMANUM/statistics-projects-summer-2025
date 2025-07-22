@@ -7,6 +7,8 @@
 
 This project showcases data cleaning, analysis, and visualization in Excel using a home sales dataset.
 
+---
+
 ## Files and Folders
 - **`Excel_Datasets`:**
   - `homes.csv` = Original raw dataset
