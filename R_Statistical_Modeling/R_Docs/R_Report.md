@@ -29,11 +29,11 @@ This project looks at weight and BMI changes in college freshmen over the academ
 
 ---
 ## 5. Reflection and Learning Outcomes
--
+This project reinforced my understanding of R for data cleaning, transformation, and analysis. Working with summary statistics, visualizations, regression models, and statistical tests helped deepen my ability to explore real-world data. 
 
 ---
 ## 6. Conclusion
--
+By applying statistical techniques in R, I analyzed real-world student data to uncover trends in weight and BMI over time. This project highlights R’s utility as a powerful tool for data analysis, visualization, and model building in a statistical context.
 
 ---
 **Contact:** dashinee.parmanum@gmail.com
