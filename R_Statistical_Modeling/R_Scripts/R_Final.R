@@ -3,6 +3,10 @@
 ## Self-directed portfolio project in Statistics and Data Analysis - Summer 2025
 
 #-------------------------------------------------------------------------------
+
+#### code with explantion
+
+
 ### 1. Import and Inspect
 
 ## Load the dataset into R and display the first few rows.
