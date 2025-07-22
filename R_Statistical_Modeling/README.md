@@ -22,7 +22,7 @@ This project demonstrates data analysis, visualization, and statistical modeling
 - **`R_Images`** = Screenshots
     
 ## Key Features
-- Data import and inspection using read.csv.
+- Data import and inspection using *read.csv*.
 - Summary statistics and exploratory data analysis.
 - Data visualization with *ggplot2* (histograms, scatterplots, boxplots).
 - Statistical inference via t-tests for group comparisons using built-in functions.
