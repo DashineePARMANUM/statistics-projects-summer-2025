@@ -1,7 +1,5 @@
-## IN THE WORKS
-
 # R Statistical Modeling: College Freshmen Dataset
--
+This project demonstrates data analysis, visualization, and statistical modeling in R using a college freshmen weight and BMI dataset.
 
 ## Files and Folders
 - **`R_Datasets`**:
