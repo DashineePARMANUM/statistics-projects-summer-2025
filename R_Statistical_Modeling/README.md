@@ -17,7 +17,7 @@ This project demonstrates data analysis, visualization, and statistical modeling
   - `R_Process.md` = Step-by-step methodology and formula explanations
   - `R_Exercises.md` = Exercises/Questions
 - **`R_Scripts`**:
-  - `R_Final.R` = code with explantion
+  - `R_Final.R` = code with explanation
   - `R_Final+Ans.R` = code with output
 - **`R_Images`** = Screenshots
     
