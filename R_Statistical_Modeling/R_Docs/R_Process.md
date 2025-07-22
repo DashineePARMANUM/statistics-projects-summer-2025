@@ -171,7 +171,7 @@ qqline(model$residuals)
 ## 8. Final File
 - The runnable R script containing all functions/steps (with explantions) used in this report is saved in `R_Final.R` (`R_Scripts`).
 - `R_Final+Ans.R` (`R_Scripts`) may also be consulted for the code and output in a single file.
-- This file can be executed directly in R Studio to reproduce the analyses and insights described above.
+- Any of those files can be executed directly in R Studio to reproduce the analyses and insights described above.
   
 ---
 **Contact:** dashinee.parmanum@gmail.com
