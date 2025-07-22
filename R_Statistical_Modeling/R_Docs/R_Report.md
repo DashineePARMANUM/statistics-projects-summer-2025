@@ -16,10 +16,10 @@ This project looks at weight and BMI changes in college freshmen over the academ
 ---
 ## 3. Methodology
 - Imported the data using the *read.csv* function and inspected the data for missing values.
-- Calculated summary statistics such as Average Weight in September.
-- Visualized data using *ggplot2* library.
-- Performed Statistical Testing, speciifaclly t-tests.
-- Build a linear regresison model using *lm* function.
+- Calculated summary statistics such as average weight in September.
+- Used *ggplot2* to create histograms, scatterplots, and boxplots.
+- Performed Statistical Testing, specifically t-tests.
+- Build a linear regresison model using *lm* function; examined model residuals using base R plots to assess distribution and linearity assumptions.
 
 ---
 ## 4. Key Insights
