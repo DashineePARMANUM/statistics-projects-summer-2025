@@ -7,6 +7,8 @@
 
 This project showcases data cleaning, transformation, and interactive visualization in Power BI using a student grades dataset.
 
+---
+
 ## Files and Folders
 - **`PowerBI_Datasets`**:
   - `grades.csv` = Original raw dataset
