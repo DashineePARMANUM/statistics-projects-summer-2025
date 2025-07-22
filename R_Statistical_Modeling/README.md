@@ -36,9 +36,9 @@ This project demonstrates data analysis, visualization, and statistical modeling
 - Diagnostic assessment of model assumptions.
 
 ## Usage
-- Download dataset in the same environment.
-- Run `R_Final.R` or `R_Final+Ans.R` (`R_Scripts`).
-- Load the dataset freshman_kgs.csv into R.
+- Download `freshman_kgs.csv` and place it in your working directory.
+- Run `R_Final.R` or `R_Final+Ans.R` scripts (`R_Scripts`).
+- Ensure freshman_kgs.csv is loaded into R.
 - Review the detailed analysis and key insights in `R_Report.md` (`R_Docs`).
 
 ## Data Source and License
