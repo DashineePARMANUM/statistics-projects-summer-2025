@@ -1,4 +1,10 @@
 # Power BI Visualization: Grades Dataset
+
+**Dashinee Parmanum**  
+*Self-directed portfolio project in Statistics and Data Analysis - Summer 2025*
+
+---
+
 This project showcases data cleaning, transformation, and interactive visualization in Power BI using a student grades dataset.
 
 ## Files and Folders
