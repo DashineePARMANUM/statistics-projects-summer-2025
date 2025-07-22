@@ -19,7 +19,7 @@ This project looks at weight and BMI changes in college freshmen over the academ
 - Calculated summary statistics such as average weight in September.
 - Used *ggplot2* to create histograms, scatterplots, and boxplots.
 - Performed t-tests.
-- Built a linear regresison model using *lm* function; examined model residuals using base R plots to assess distribution and linearity assumptions.
+- Built a linear regression model using *lm* function; examined model residuals using base R plots to assess distribution and linearity assumptions.
 
 ---
 ## 4. Key Insights
