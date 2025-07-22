@@ -9,7 +9,7 @@ This project looks at weight and BMI changes in college freshmen over the academ
 
 ---
 ## 2. Data Description
-- The dataset contains information for 67 students, including their weight in September and April, and their BMI in Septmeber and April.
+- The dataset contains information for 67 students, including their weight in September and April, and their BMI in September and April.
 - The data was sourced from the CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html (`freshman_kgs.csv`).
 - GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt
 
