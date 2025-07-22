@@ -1,4 +1,10 @@
 # R Statistical Modeling: College Freshmen Dataset
+
+**Dashinee Parmanum**  
+*Self-directed portfolio project in Statistics and Data Analysis - Summer 2025*
+
+---
+
 This project demonstrates data analysis, visualization, and statistical modeling in R using a college freshmen weight and BMI dataset.
 
 ## Files and Folders
