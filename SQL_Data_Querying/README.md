@@ -7,6 +7,8 @@
 
 This project showcases data analysis and querying in SQL using a major league baseball players dataset.
 
+---
+
 ## Files and Folders
 - **`SQL_Datasets`:**
   - `mlb_players_raw.csv` = Original raw dataset
