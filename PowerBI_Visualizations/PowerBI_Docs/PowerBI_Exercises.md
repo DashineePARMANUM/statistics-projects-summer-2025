@@ -41,4 +41,5 @@
 - Format colors and fonts for readability.
 
 ---
-**Contact:** dashinee.parmanum@gmail.com
+*Contact: dashinee.parmanum@gmail.com*  
+*LinkedIn: https://www.linkedin.com/in/dashinee-parmanum/*
