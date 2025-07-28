@@ -39,4 +39,5 @@ This project reinforced my understanding of SQL’s capabilities for data cleani
 By applying SQL querying techniques, I was able to analyze complex sports data to uncover trends and patterns related to player demographics and physical characteristics. This project highlights SQL’s utility as a powerful tool for statistical data analysis and database management.
 
 ---
-**Contact:** dashinee.parmanum@gmail.com
+*Contact: dashinee.parmanum@gmail.com*  
+*LinkedIn: https://www.linkedin.com/in/dashinee-parmanum/*
