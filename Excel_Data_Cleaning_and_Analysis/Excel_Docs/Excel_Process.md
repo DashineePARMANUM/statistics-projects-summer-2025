@@ -97,4 +97,5 @@
 - All data, analysis, pivot tables, charts, and dashboard are saved in `homes.xlsx` (`Excel_Datasets`).
 
 ---
-**Contact:** dashinee.parmanum@gmail.com
+*Contact: dashinee.parmanum@gmail.com*  
+*LinkedIn: https://www.linkedin.com/in/dashinee-parmanum/*
