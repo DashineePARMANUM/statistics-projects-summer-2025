@@ -41,4 +41,5 @@ This project strengthened my ability to use Power BI for real-world data analysi
 I demonstrated how Power BI can be used to uncover trends by integrating visual storytelling with data analysis; the final dashboard offers meaningful insights.
 
 ---
-**Contact:** dashinee.parmanum@gmail.com
+*Contact: dashinee.parmanum@gmail.com*  
+*LinkedIn: https://www.linkedin.com/in/dashinee-parmanum/*
