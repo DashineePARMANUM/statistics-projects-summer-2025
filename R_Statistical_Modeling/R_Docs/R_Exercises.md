@@ -38,4 +38,5 @@
 - Plot the residuals and check if they seem normally distributed.
 
 ---
-**Contact:** dashinee.parmanum@gmail.com
+*Contact: dashinee.parmanum@gmail.com*  
+*LinkedIn: https://www.linkedin.com/in/dashinee-parmanum/*
