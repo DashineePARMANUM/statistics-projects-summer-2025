@@ -45,3 +45,4 @@ GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu
 
 ---
 **Contact:** dashinee.parmanum@gmail.com
+LinkedIn: https://www.linkedin.com/in/dashinee-parmanum/
