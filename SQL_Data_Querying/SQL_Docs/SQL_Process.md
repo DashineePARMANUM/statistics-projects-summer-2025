@@ -140,6 +140,7 @@ ALTER TABLE mlb_players ADD CONSTRAINT age_positive CHECK (Age > 0);
 ## 12. Resources
 - The runnable SQL script containing all queries used in this report is saved in `SQL_Queries.sql` (`SQL_Scripts`).
 - This file can be executed directly in PostgreSQL (PgAdmin) to reproduce the analyses and insights described above.
-  
+ 
 ---
-**Contact:** dashinee.parmanum@gmail.com
+*Contact: dashinee.parmanum@gmail.com*  
+*LinkedIn: https://www.linkedin.com/in/dashinee-parmanum/*
