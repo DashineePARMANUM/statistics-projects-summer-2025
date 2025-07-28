@@ -35,6 +35,7 @@ Each folder contains:
 - Browse by folder to explore individual projects
 - Run the scripts in the corresponding environments for reproducibility (Postgre - PgAdmin/Python/R)
 - Review Excel and Power BI files using the respective software
+- Feel free to clone or fork the repo to try the projects yourself :)
 
 ## License
 
