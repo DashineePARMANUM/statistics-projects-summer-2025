@@ -36,4 +36,5 @@ This project reinforced my understanding of R for data cleaning, transformation,
 By applying statistical techniques in R, I analyzed real-world student data to uncover trends in weight and BMI over time. This project highlights R’s utility as a powerful tool for data analysis, visualization, and model building in a statistical context.
 
 ---
-**Contact:** dashinee.parmanum@gmail.com
+*Contact: dashinee.parmanum@gmail.com*  
+*LinkedIn: https://www.linkedin.com/in/dashinee-parmanum/*
