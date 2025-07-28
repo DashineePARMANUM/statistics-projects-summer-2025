@@ -54,5 +54,5 @@ This project reinforced the application of Excel’s advanced features for pract
 By combining logical computations and visualization in Excel, this project demonstrated effective methods for analyzing and presenting real estate data, offering actionable insights and showcasing essential analytical skills.
 
 ---
-**Contact:** dashinee.parmanum@gmail.com
-  
+*Contact: dashinee.parmanum@gmail.com*  
+*LinkedIn: https://www.linkedin.com/in/dashinee-parmanum/*  
