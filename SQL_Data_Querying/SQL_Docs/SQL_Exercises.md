@@ -39,5 +39,6 @@
 ## 9. Constraints and Data Validation
 - Write a statement to add a constraint to ensure Age is always greater than zero.
 
- ---
-**Contact:** dashinee.parmanum@gmail.com
+---
+*Contact: dashinee.parmanum@gmail.com*  
+*LinkedIn: https://www.linkedin.com/in/dashinee-parmanum/*
