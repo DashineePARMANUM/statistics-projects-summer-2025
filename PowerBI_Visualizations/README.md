@@ -49,4 +49,5 @@ The dataset used in this project was obtained from the CSV data repository at ht
 GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt
 
 ---
-**Contact:** dashinee.parmanum@gmail.com
+*Contact: dashinee.parmanum@gmail.com*  
+*LinkedIn: https://www.linkedin.com/in/dashinee-parmanum/*
