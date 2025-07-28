@@ -106,6 +106,7 @@
   - Page 6 = slide *Cards*
   - Page 7 = slide *Tooltips*
   - Page 8 = slide *Dashboard*
-    
+
 ---
-**Contact:** dashinee.parmanum@gmail.com
+*Contact: dashinee.parmanum@gmail.com*  
+*LinkedIn: https://www.linkedin.com/in/dashinee-parmanum/*
