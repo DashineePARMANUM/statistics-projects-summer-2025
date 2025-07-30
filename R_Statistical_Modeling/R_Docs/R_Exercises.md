@@ -4,7 +4,6 @@
 *Self-directed portfolio project in Statistics and Data Analysis - Summer 2025*
 
 ---
-
 ## 1. Import and Inspect
 - Load the dataset into R and display the first few rows.
 - What are the column names? Are they formatted properly (no spaces, lowercase, etc.)?
