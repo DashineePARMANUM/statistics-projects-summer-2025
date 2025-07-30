@@ -19,6 +19,8 @@ import numpy as np
 
 ### 1. Import and Inspect
 
+# in Excel - deleted Index column + removed all "
+
 ## Load the dataset.
 # use pandas
 data = pd.read_csv(r"C:\Users\dmpar\Documents\GitHub\statistics-projects-summer-2025\Python_Data_Analysis\Python_Datasets\oscar_age_female.csv")
