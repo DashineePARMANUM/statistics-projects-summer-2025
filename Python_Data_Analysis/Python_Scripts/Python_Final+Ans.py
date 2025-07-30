@@ -88,8 +88,17 @@ else:
 
 #--------------------------------------------------------------------------------
 ### 3. Data Visualization
+
 ## Create a histogram of ages using seaborn or matplotlib.
+plt.figure(figsize=(8, 5))
+sns.histplot(data["Age"], bins=10, kde=True)
+plt.title("Distribution of Oscar Winners' Ages")
+plt.xlabel("Age")
+plt.ylabel("Frequency")
+plt.show()
+
 ## Create a boxplot to visualize the distribution of ages.
+
 ## Make a scatterplot of age vs index (or vs year if available).
 ## Create a bar chart of winners grouped by age ranges (e.g. 20s, 30s, 40s).
 
