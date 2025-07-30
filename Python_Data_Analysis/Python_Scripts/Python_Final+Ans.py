@@ -28,10 +28,14 @@ data = pd.read_csv(r"C:\Users\dmpar\Documents\GitHub\statistics-projects-summer-
 print(data.head())
 
 ## What are the column names?
-print("Columns:", data.columns.tolist())
-# Columns: ['Index', ' "Year"', ' "Age"', ' "Name"', ' "Movie"']
+print("Columns:", data.columns.tolist()) # Columns: ['Index', ' "Year"', ' "Age"', ' "Name"', ' "Movie"']
 
 ## How many rows and columns are there?
+# rows
+print(data.shape[0]) # 89
+# columns
+print(data.shape[1]) #5
+
 ## What data types are in each column?
 ## Are there any missing values? If so, where?
 
