@@ -38,7 +38,7 @@ print("Columns:", data.columns.tolist()) # Columns: [' Year', ' Age', ' Name', '
 # rows
 print(data.shape[0]) # 89
 # columns
-print(data.shape[1]) # 5
+print(data.shape[1]) # 4
 
 ## What data types are in each column?
 print(data.dtypes) # Year=int64; Age=int64; Name=object; Movie=object
@@ -53,10 +53,37 @@ print(data.isnull().sum()) # no missing
 print(data["Age"].mean()) # 36.12359550561798
 
 ## Who is the youngest and oldest winner? Include their names and movies.
+# youngest
+youngest = data.loc[data["Age"].idxmin()]
+print("Youngest winner is" + youngest["Name"] + " of age " + str(youngest["Age"]) + " who starred in" + youngest["Movie"] + ".")
+# Youngest winner is Marlee Matlin of age 21 who starred in Children of a Lesser God.
+# oldest
+oldest = data.loc[data["Age"].idxmax()]
+print("Oldest winner is" + oldest["Name"] + " of age " + str(oldest["Age"]) + " who starred in" + oldest["Movie"] + ".")
+# Oldest winner is Jessica Tandy of age 80 who starred in Driving Miss Daisy.
 
 ## How many winners were under 30? Over 50?
+# under 30
+print(len(data[data["Age"] < 30])) # 31
+# over 50
+print(len(data[data["Age"] > 50])) # 10
+
 ## What is the age range, standard deviation, and median age?
+# range
+print(data["Age"].max() - data["Age"].min()) # 59
+# standard deviation
+print(data["Age"].std()) # 11.745231357989796
+# median
+print(data["Age"].median()) # 33.0
+
 ## Are there more winners in their 20s or 30s?
+difference_20_30 = len(data[(data["Age"] >= 20) & (data["Age"] < 30)]) - len(data[(data["Age"] >= 30) & (data["Age"] < 40)])
+if difference_20_30 > 0:
+    print("More winners in their 20s.")
+elif difference_20_30 < 0:
+    print("More winners in their 30s.")
+else:
+    print("Equal number of winners in their 20s and 30s.")
 
 #--------------------------------------------------------------------------------
 ### 3. Data Visualization
