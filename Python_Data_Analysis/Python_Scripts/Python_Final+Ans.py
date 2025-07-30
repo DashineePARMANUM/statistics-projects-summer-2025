@@ -20,6 +20,8 @@ import numpy as np
 ### 1. Import and Inspect
 
 ## Load the dataset.
+# use pandas
+data = pd.read_csv("oscar_age_female.csv")
 
 ## Display the first few rows.
 ## What are the column names? Are they formatted properly (no spaces, lowercase, etc.)?
