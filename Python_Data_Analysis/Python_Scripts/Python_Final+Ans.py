@@ -24,6 +24,8 @@ import numpy as np
 data = pd.read_csv(r"C:\Users\dmpar\Documents\GitHub\statistics-projects-summer-2025\Python_Data_Analysis\Python_Datasets\oscar_age_female.csv")
 
 ## Display the first few rows.
+print(data.head())
+
 ## What are the column names? Are they formatted properly (no spaces, lowercase, etc.)?
 ## How many rows and columns are there?
 ## What data types are in each column?
