@@ -4,7 +4,6 @@
 *Self-directed portfolio project in Statistics and Data Analysis - Summer 2025*
 
 ---
-
 ## 1. Freeze Panes (Freezing Rows/Columns)
 - Freeze the top row to keep headers visible when scrolling vertically.  
 - Freeze the first column to keep home IDs visible when scrolling horizontally.
