@@ -35,19 +35,10 @@
 
 #--------------------------------------------------------------------------------
 ### 4. Exploratory Questions
-<<<<<<< HEAD
-
-## Perform a paired t-test to determine if average weight changed significantly from September to April.
-t.test(data$weight..sep., data$weight..apr., paired = TRUE)
-
-## Perform an independent t-test to compare weight change between males and females.
-t.test(weight_change ~ sex, data)
-=======
 ## Has the average age of winners increased or decreased over time?
 ## What is the most common age range for winning?
 ## Are there any outliers in the data? Who are they?
 ## How common are wins among actresses in their 20s compared to older age groups?
->>>>>>> 2f6261b5646714788272c85a18ea789779e92c8e
 
 #--------------------------------------------------------------------------------
 ### 5. Linear Regression
