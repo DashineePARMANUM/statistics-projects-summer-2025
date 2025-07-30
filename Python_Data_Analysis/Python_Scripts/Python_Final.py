@@ -116,7 +116,7 @@ ggplot(data, aes(x = `weight_change`)) + geom_histogram() +
   theme(plot.title = element_text(hjust = 0.5))
 
 #--------------------------------------------------------------------------------
-### 4. Statistical Testing
+### 4. Exploratory Questions
 
 ## Perform a paired t-test to determine if average weight changed significantly from September to April.
 t.test(data$weight..sep., data$weight..apr., paired = TRUE)
