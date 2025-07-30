@@ -102,7 +102,7 @@ plt.title("Boxplot of Age") # title
 plt.show() # display
 
 ## Make a scatterplot of age vs index (or vs year if available).
-plt.figure(figsize=(10, 5)) # size of chart = 8x5
+plt.figure(figsize=(8, 5)) # size of chart = 8x5
 sns.scatterplot(x=data.index, y=data["Age"]) # create scatterplot/plot points  
 plt.title("Scatter of Age vs Index") # title
 plt.xlabel("Age") # x-axis
@@ -121,7 +121,18 @@ plt.show() # display
 
 #--------------------------------------------------------------------------------
 ### 4. Exploratory Questions
+
 ## Has the average age of winners increased or decreased over time?
+data_sorted_year = data.sort_values("Year") # sort by year
+plt.figure(figsize=(8, 5)) # size of chart = 8x5
+sns.lineplot(x="Year", y="Age", data=data_sorted_year) # actual line
+sns.regplot(x="Year", y="Age", data=data_sorted_year, scatter=False, color="red", label="Trend Line") # tendency line
+plt.title("Age through the years") # title
+plt.xlabel("Year") # x-axis
+plt.ylabel("Age") # y-axis
+plt.show() # display 
+# chart shows slight increase
+
 ## What is the most common age range for winning?
 ## Are there any outliers in the data? Who are they?
 ## How common are wins among actresses in their 20s compared to older age groups?
