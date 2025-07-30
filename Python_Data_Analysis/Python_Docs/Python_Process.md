@@ -8,7 +8,7 @@
 ---
 ## 0. Original Data and Setup
 - `oscar_age_female.csv` contains 89 female Oscar winners including their age, name, and movie.
-- All work was conducted using VS Code application.
+- All work was conducted using Visual Studio Code application.
 
 ---
 ## 1. Import and Inspect
