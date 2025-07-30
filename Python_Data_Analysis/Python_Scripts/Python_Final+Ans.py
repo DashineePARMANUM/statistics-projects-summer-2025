@@ -21,7 +21,7 @@ import numpy as np
 
 ## Load the dataset.
 # use pandas
-data = pd.read_csv("oscar_age_female.csv")
+data = pd.read_csv(r"C:\Users\dmpar\Documents\GitHub\statistics-projects-summer-2025\Python_Data_Analysis\Python_Datasets\oscar_age_female.csv")
 
 ## Display the first few rows.
 ## What are the column names? Are they formatted properly (no spaces, lowercase, etc.)?
