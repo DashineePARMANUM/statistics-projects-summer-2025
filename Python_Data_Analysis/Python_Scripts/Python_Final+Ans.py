@@ -10,8 +10,17 @@
 
 #-------------------------------------------------------------------------------
 
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
+import numpy as np
+
 ### 1. Import and Inspect
+
 ## Load the dataset.
+
 ## Display the first few rows.
 ## What are the column names? Are they formatted properly (no spaces, lowercase, etc.)?
 ## How many rows and columns are there?
