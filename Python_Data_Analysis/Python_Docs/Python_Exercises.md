@@ -4,7 +4,6 @@
 *Self-directed portfolio project in Statistics and Data Analysis - Summer 2025*
 
 ---
-
 ## 1. Import and Inspect
 - Load the dataset .
 - Display the first few rows.
