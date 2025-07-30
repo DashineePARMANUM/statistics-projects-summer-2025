@@ -50,6 +50,8 @@
 ---
 ## 8. Final File
 - The runnable Python script containing all functions/steps (with explantions) used in this report is saved in `Python_Final.py` (`Python_Scripts`).
+- `Python_Final+Ans.py` (`Python_Scripts`) may also be consulted for the code and output in a single file.
+- Any of those files can be executed directly in Visual Studio Code to reproduce the analyses and insights described above.
 
 ---
 *Contact: dashinee.parmanum@gmail.com*  
