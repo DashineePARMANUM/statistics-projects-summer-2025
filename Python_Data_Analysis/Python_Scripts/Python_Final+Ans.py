@@ -37,7 +37,10 @@ print(data.shape[0]) # 89
 print(data.shape[1]) # 5
 
 ## What data types are in each column?
+print(data.dtypes) # Index=int64; Year=int64; Age=object; Name=object; Movie=object
+
 ## Are there any missing values? If so, where?
+print(data.isnull().sum()) # no missing
 
 #--------------------------------------------------------------------------------
 ### 2. Summary Statistics
