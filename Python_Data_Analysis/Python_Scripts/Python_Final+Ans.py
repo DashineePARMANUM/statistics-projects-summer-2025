@@ -31,7 +31,7 @@ data.columns = data.columns.str.strip()
 print(data.head())
 
 ## What are the column names?
-print(data.columns.tolist()) # Columns: [' Year', ' Age', ' Name', ' Movie', 'Unnamed: 4']
+print(data.columns.tolist()) # ['Year', 'Age', 'Name', 'Movie']
 
 ## How many rows and columns are there?
 # rows
