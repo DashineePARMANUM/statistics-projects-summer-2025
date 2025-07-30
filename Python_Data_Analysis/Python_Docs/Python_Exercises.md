@@ -1,4 +1,4 @@
-# R Statistical Modeling Exercises: College Freshmen Dataset
+# Python Data Analysis Exercises: Female Oscar Winners Dataset
 
 **Dashinee Parmanum**  
 *Self-directed portfolio project in Statistics and Data Analysis - Summer 2025*
