@@ -34,7 +34,7 @@ print("Columns:", data.columns.tolist()) # Columns: ['Index', ' "Year"', ' "Age"
 # rows
 print(data.shape[0]) # 89
 # columns
-print(data.shape[1]) #5
+print(data.shape[1]) # 5
 
 ## What data types are in each column?
 ## Are there any missing values? If so, where?
