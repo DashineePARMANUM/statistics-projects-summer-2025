@@ -4,7 +4,6 @@
 *Self-directed portfolio project in Statistics and Data Analysis - Summer 2025*
 
 ---
-
 ## 1. Import and Clean Data
 - Import data.
 - Inspect the fields: Rename them if needed.
