@@ -1,38 +1,22 @@
 ## IN THE WORKS
 
 #### Python Data Analysis: Female Oscar Winners Dataset
-## Dashinee Parmanum - dashinee.parmanum@gmail.com
+## Dashinee Parmanum - dashinee.parmanum@gmail.com - https://www.linkedin.com/in/dashinee-parmanum/
 ## Self-directed portfolio project in Statistics and Data Analysis - Summer 2025
 
 #-------------------------------------------------------------------------------
 
 #### code with explantion
 
+#-------------------------------------------------------------------------------
+
 ### 1. Import and Inspect
-
-## Load the dataset into R and display the first few rows.
-# load dataset
-data <- read.csv("freshman_kgs.csv")
-# display first rows
-head(data)
-
-## What are the column names?- Are they formatted properly (no spaces, lowercase, etc.)?
-# displays columns names
-colnames(data) 
-# remove spaces/_ from columns names
-colnames(data) <- tolower(gsub(" ", "_", colnames(data)))
-
+## Load the dataset.
+## Display the first few rows.
+## What are the column names? Are they formatted properly (no spaces, lowercase, etc.)?
 ## How many rows and columns are there?
-# display dataset dimensions
-dim(data)
-
 ## What data types are in each column?
-# displays each column data type
-str(data) 
-
 ## Are there any missing values? If so, where?
-# check for missing values
-colSums(is.na(data))
 
 #--------------------------------------------------------------------------------
 ### 2. Summary Statistics
