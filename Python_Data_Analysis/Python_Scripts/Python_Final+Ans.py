@@ -27,7 +27,10 @@ data = pd.read_csv(r"C:\Users\dmpar\Documents\GitHub\statistics-projects-summer-
 # head + print function to display first rows
 print(data.head())
 
-## What are the column names? Are they formatted properly (no spaces, lowercase, etc.)?
+## What are the column names?
+print("Columns:", data.columns.tolist())
+# Columns: ['Index', ' "Year"', ' "Age"', ' "Name"', ' "Movie"']
+
 ## How many rows and columns are there?
 ## What data types are in each column?
 ## Are there any missing values? If so, where?
