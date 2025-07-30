@@ -5,7 +5,7 @@
 
 ---
 ## 1. Import and Inspect
-- Load the dataset .
+- Load the dataset.
 - Display the first few rows.
 - What are the column names? Are they formatted properly (no spaces, lowercase, etc.)?
 - How many rows and columns are there?
