@@ -1,10 +1,12 @@
 ### R Statistical Modeling: College Freshmen Dataset
-## Dashinee Parmanum - dashinee.parmanum@gmail.com
+## Dashinee Parmanum - dashinee.parmanum@gmail.com - https://www.linkedin.com/in/dashinee-parmanum/
 ## Self-directed portfolio project in Statistics and Data Analysis - Summer 2025
 
 #-------------------------------------------------------------------------------
 
 #### code with explantion
+
+#-------------------------------------------------------------------------------
 
 ### 1. Import and Inspect
 
