@@ -30,7 +30,7 @@ data = pd.read_csv(r"C:\Users\dmpar\Documents\GitHub\statistics-projects-summer-
 print(data.head())
 
 ## What are the column names?
-print("Columns:", data.columns.tolist()) # Columns: ['Index', ' "Year"', ' "Age"', ' "Name"', ' "Movie"']
+print("Columns:", data.columns.tolist()) # Columns: [' Year', ' Age', ' Name', ' Movie', 'Unnamed: 4']
 
 ## How many rows and columns are there?
 # rows
@@ -39,7 +39,7 @@ print(data.shape[0]) # 89
 print(data.shape[1]) # 5
 
 ## What data types are in each column?
-print(data.dtypes) # Index=int64; Year=int64; Age=object; Name=object; Movie=object
+print(data.dtypes) # Year=int64; Age=int64; Name=object; Movie=object
 
 ## Are there any missing values? If so, where?
 print(data.isnull().sum()) # no missing
