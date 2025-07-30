@@ -1,4 +1,6 @@
-### R Statistical Modeling: College Freshmen Dataset
+## IN THE WORKS
+
+#### Python Data Analysis: Female Oscar Winners Dataset
 ## Dashinee Parmanum - dashinee.parmanum@gmail.com
 ## Self-directed portfolio project in Statistics and Data Analysis - Summer 2025
 
