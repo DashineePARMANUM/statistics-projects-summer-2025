@@ -44,7 +44,9 @@ print(data.isnull().sum()) # no missing
 
 #--------------------------------------------------------------------------------
 ### 2. Summary Statistics
+
 ## What is the average age of Oscar winners in this dataset?
+
 ## Who is the youngest and oldest winner? Include their names and movies.
 ## How many winners were under 30? Over 50?
 ## What is the age range, standard deviation, and median age?
