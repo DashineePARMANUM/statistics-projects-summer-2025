@@ -6,7 +6,8 @@
 
 ## Files and Folders
 - **`Python_Datasets`**:
-  - `oscar_age_female.csv` = Original raw dataset
+  - `oscar_age_female_raw.csv` = Original raw dataset
+  - `oscar_age_female.csv` = Modified dataset used for analysis
 - **`Python_Docs`**:
   - `Python_Report.md` = Detailed project overview and insights
   - `Python_Process.md` = Step-by-step methodology and formula explanations
