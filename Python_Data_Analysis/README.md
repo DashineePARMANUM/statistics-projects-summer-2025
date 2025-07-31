@@ -26,7 +26,6 @@
 ## Usage
 - Download `oscar_age_female.csv` and place it in your working directory.
 - Run `Python_Final.py` or `Python_Final+Ans.py` scripts (`Python_Scripts`).
-- Ensure `oscar_age_female.csv` is loaded.
 - Review the detailed analysis and key insights in `Python_Report.md` (`Python_Docs`).
 
 ## Data Source and License
