@@ -12,8 +12,8 @@
   - `Python_Process.md` = Step-by-step methodology and formula explanations
   - `Python_Exercises.md` = Exercises/Questions
 - **`Python_Scripts`**:
-  - `Python_Final.R` = code with explanation
-  - `Python_Final+Ans.R` = code with output
+  - `Python_Final.py` = code with explanation
+  - `Python_Final+Ans.py` = code with output
 - **`Python_Images`** = Screenshots
 
 ## Key Features
