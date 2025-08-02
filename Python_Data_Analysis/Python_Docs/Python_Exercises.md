@@ -20,7 +20,7 @@
 - Are there more winners in their 20s or 30s?
 
 ## 3. Data Visualization
-- Create a histogram of ages using seaborn or matplotlib.
+- Create a histogram of ages.
 - Create a boxplot to visualize the distribution of ages.
 - Make a scatterplot of age vs index (or vs year if available).
 - Create a bar chart of winners grouped by age ranges (e.g. 20s, 30s, 40s).
