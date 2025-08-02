@@ -111,8 +111,8 @@ plt.show()
 plt.figure(figsize=(8, 5))
 sns.scatterplot(x=data.index, y=data["Age"]) # create scatterplot/plot points  
 plt.title("Scatter of Age vs Index")
-plt.xlabel("Age")
-plt.ylabel("Index")
+plt.xlabel("Index")
+plt.ylabel("Age")
 plt.show() 
 # Chart 3
 
@@ -192,6 +192,7 @@ plt.xlabel("Year")
 plt.ylabel("Age")
 plt.legend()
 plt.show()
+# Chart 6
 
 ## Plot the residuals. Do they appear normally distributed?
 residuals = y - y_pred
@@ -201,4 +202,4 @@ plt.title("Distribution of Residuals")
 plt.xlabel("Residuals")
 plt.ylabel("Frequency")
 plt.show()
-# not normally distributed = skewed to the left
+# not normally distributed = skewed to the left = overestimate age in later years
