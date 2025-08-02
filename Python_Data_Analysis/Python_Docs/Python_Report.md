@@ -1,5 +1,3 @@
-## IN THE WORKS
-
 # Python Data Analysis Report: Female Oscar Winners Dataset
 
 **Dashinee Parmanum**  
