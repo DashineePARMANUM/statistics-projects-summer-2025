@@ -107,7 +107,7 @@ plt.title("Boxplot of Age")
 plt.show() 
 # Chart 2
 
-## Make a scatterplot of age vs index (or vs year if available).
+## Make a scatterplot of age vs index.
 plt.figure(figsize=(8, 5))
 sns.scatterplot(x=data.index, y=data["Age"]) # create scatterplot/plot points  
 plt.title("Scatter of Age vs Index")
