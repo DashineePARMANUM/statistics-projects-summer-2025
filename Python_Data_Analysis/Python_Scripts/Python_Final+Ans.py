@@ -87,37 +87,43 @@ else:
 #--------------------------------------------------------------------------------
 ### 3. Data Visualization
 
+# size = plt.figure(figsize=(x, y))
+# title = plt.title(" ")
+# x-axis = plt.xlabel(" ")
+# y-axis = plt.ylabel(" ") 
+# display = plt.show()
+
 ## Create a histogram of ages using seaborn or matplotlib.
-plt.figure(figsize=(8, 5))  # size of chart = 8x5
+plt.figure(figsize=(8, 5))
 sns.histplot(data["Age"]) # create histogram
-plt.title("Histogram of Age") # title
-plt.xlabel("Age") # x-axis
-plt.ylabel("Frequency") # y-axis
-plt.show() # display
+plt.title("Histogram of Age")
+plt.xlabel("Age") 
+plt.ylabel("Frequency")
+plt.show()
 
 ## Create a boxplot to visualize the distribution of ages.
-plt.figure(figsize=(8, 5)) # size of chart = 8x5
+plt.figure(figsize=(8, 5))
 sns.boxplot(x=data["Age"]) # create boxplot
-plt.title("Boxplot of Age") # title
-plt.show() # display
+plt.title("Boxplot of Age")
+plt.show() 
 
 ## Make a scatterplot of age vs index (or vs year if available).
-plt.figure(figsize=(8, 5)) # size of chart = 8x5
+plt.figure(figsize=(8, 5))
 sns.scatterplot(x=data.index, y=data["Age"]) # create scatterplot/plot points  
-plt.title("Scatter of Age vs Index") # title
-plt.xlabel("Age") # x-axis
-plt.ylabel("Frequency") # y-axis
-plt.show() # display 
+plt.title("Scatter of Age vs Index")
+plt.xlabel("Age")
+plt.ylabel("Frequency")
+plt.show() 
 
 ## Create a bar chart of winners grouped by age ranges (e.g. 20s, 30s, 40s).
 age_bins = pd.cut(data["Age"], bins=[20, 30, 40, 50, 60, 70], right=False) # create ranges
 age_group_counts = age_bins.value_counts().sort_index() # count how many for each range + sort_index = ensure logical order
-plt.figure(figsize=(8, 5)) # size of chart = 8x5
-age_group_counts.plot(kind='bar')      # Create a vertical bar chart
-plt.title("Histogram by Age range") # title
-plt.xlabel("Age") # x-axis
-plt.ylabel("Frequency") # y-axis
-plt.show() # display 
+plt.figure(figsize=(8, 5))
+age_group_counts.plot(kind='bar') # Create a vertical bar chart
+plt.title("Histogram by Age range")
+plt.xlabel("Age")
+plt.ylabel("Frequency")
+plt.show()
 
 #--------------------------------------------------------------------------------
 ### 4. Exploratory Questions
