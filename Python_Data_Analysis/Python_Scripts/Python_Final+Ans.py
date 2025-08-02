@@ -94,7 +94,7 @@ else:
 # y-axis = plt.ylabel(" ") 
 # display = plt.show()
 
-## Create a histogram of ages using seaborn or matplotlib.
+## Create a histogram of ages.
 plt.figure(figsize=(8, 5))
 sns.histplot(data["Age"]) # create histogram
 plt.title("Histogram of Age")
