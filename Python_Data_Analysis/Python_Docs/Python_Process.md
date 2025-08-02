@@ -1,5 +1,3 @@
-## IN THE WORKS
-
 # Python Data Analysis Process - Detailed Notes: Female Oscar Winners Dataset
 
 **Dashinee Parmanum**  
@@ -8,8 +6,8 @@
 ---
 ## 0. Original Data and Setup
 - `oscar_age_female.csv` contains 89 female Oscar winners including their age, name, and movie.
-- `oscar_age_female.csv` was renamed `oscar_age_female_raw.csv` to differentiate with the modifed dataset.
-- A copy `oscar_age_female.csv` was modified in Excel to remove all " and unecessary spaces.
+- `oscar_age_female.csv` was renamed `oscar_age_female_raw.csv` to differentiate with the modified dataset.
+- A copy `oscar_age_female.csv` was modified in Excel to remove all " and unnecessary spaces.
 - All work was conducted using Visual Studio Code application.
 - Libraries:
 ```python
@@ -212,17 +210,20 @@ plt.show()
 
 ---
 ## 6. Key Insights
-- 
+- Most Oscar-winning performances occurred when actresses were in their 30s, though there is a notable cluster in the 20s.
+- There is a weak trend toward younger winners in recent years, though the regression line shows only a slight slope.
   
 ---
 ## 7. Challenges and Solutions
--
+- Cleaning the dataset: Quotation marks and extra spaces caused read issues.
+    - Preprocessed in Excel and used `.str.strip()` in Python.
+- Handling outliers
+    - Used IQR method.
 
 ---
 ## 8. Final File
-- The runnable Python script containing all functions/steps (with explantions) used in this report is saved in `Python_Final.py` (`Python_Scripts`).
-- `Python_Final+Ans.py` (`Python_Scripts`) may also be consulted for the code and output in a single file.
-- Any of those files can be executed directly in Visual Studio Code to reproduce the analyses and insights described above.
+- The runnable Python script containing all functions/steps (with explanation) used in this report is saved in `Python_Final+Exp.py` (`Python_Scripts`).
+- Any of those files in `Python_Scripts` can be executed directly in Visual Studio Code to reproduce the analyses and insights described above.
 
 ---
 *Contact: dashinee.parmanum@gmail.com*  
