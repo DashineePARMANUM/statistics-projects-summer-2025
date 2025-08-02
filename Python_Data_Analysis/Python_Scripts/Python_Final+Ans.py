@@ -21,7 +21,6 @@ import numpy as np
 ### 1. Import and Inspect
 
 ## Load the dataset.
-# using pandas(pd)
 data = pd.read_csv(r"C:\Users\dmpar\Documents\GitHub\statistics-projects-summer-2025\Python_Data_Analysis\Python_Datasets\oscar_age_female.csv")
 # strip leading/trailing spaces
 data.columns = data.columns.str.strip()
@@ -115,7 +114,7 @@ plt.figure(figsize=(8, 5))
 sns.scatterplot(x=data.index, y=data["Age"]) # create scatterplot/plot points  
 plt.title("Scatter of Age vs Index")
 plt.xlabel("Age")
-plt.ylabel("Frequency")
+plt.ylabel("Index")
 plt.show() 
 # Chart 3
 
@@ -124,7 +123,7 @@ age_bins = pd.cut(data["Age"], bins=[20, 30, 40, 50, 60, 70], right=False) # cre
 age_group_counts = age_bins.value_counts().sort_index() # count how many for each range (sort_index = ensure logical order)
 plt.figure(figsize=(8, 5))
 age_group_counts.plot(kind='bar') # Create a vertical bar chart
-plt.title("Histogram by Age range")
+plt.title("Bar Chart by Age range")
 plt.xlabel("Age")
 plt.ylabel("Frequency")
 plt.show()
@@ -184,7 +183,7 @@ print(model.intercept_) # -152.78420156622403
 ## What is the R-squared value?
 # Predict and evaluate
 y_pred = model.predict(x)
-print(r2_score(y, y_pred)) # 
+print(r2_score(y, y_pred)) # 0.044403178998311366
 
 ## Plot the regression line on your scatterplot.
 plt.figure(figsize=(8, 5))
@@ -204,4 +203,4 @@ plt.title("Distribution of Residuals")
 plt.xlabel("Residuals")
 plt.ylabel("Frequency")
 plt.show()
-# not normally distributed = squewed to the left
+# not normally distributed = skewed to the left
