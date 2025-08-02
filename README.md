@@ -19,7 +19,7 @@ Even after completing them, I’m continually refining these projects, finding s
 | **SQL** Data Querying                     | Major League Baseball Players |
 | **Power BI** Visualization                | Grades                        |
 | **R** Statistical Modeling                | College Freshmen              |
-| **Python** Data Analysis                  | -                             |
+| **Python** Data Analysis                  | Female Oscar Winners          |
 
 Each folder contains:
 - Project description
