@@ -155,8 +155,11 @@ lower_bound = Q1 - 1.5 * IQR
 upper_bound = Q3 + 1.5 * IQR
 # outliers
 print(data[(data["Age"] < lower_bound) | (data["Age"] > upper_bound)])
+# Marie Dressler, Katharine Hepburn (2 movies), Geraldine Page, Jessica Tandy, Helen Mirren, Meryl Streep
 
 ## How common are wins among actresses in their 20s compared to older age groups?
+# Count wins by age groups
+print(age_bins.value_counts().sort_index())
 
 #--------------------------------------------------------------------------------
 ### 5. Linear Regression
