@@ -130,18 +130,84 @@ plt.ylabel("Frequency")
 plt.show()
 # Chart 4
 ```
-`Python_Images` may be consulted for all screenshots.
+`Python_Images` may be consulted for all screenshots/charts.
 
 ---
 ## 4. Exploratory Questions
 ```python
+## Has the average age of winners increased or decreased over time?
+data_sorted_year = data.sort_values("Year") # sort by year
+plt.figure(figsize=(8, 5))
+sns.lineplot(x="Year", y="Age", data=data_sorted_year) # actual line
+sns.regplot(x="Year", y="Age", data=data_sorted_year, scatter=False, color="red", label="Trend Line") # tendency line
+plt.title("Age through the years")
+plt.xlabel("Year")
+plt.ylabel("Age")
+plt.show() 
+# Chart 5
 
+## What is the most common age range for winning?
+# age_bins from earlier
+print(age_group_counts.idxmax())
+
+## Are there any outliers in the data? Who are they?
+# IQR method
+# define quartiles & IQR
+Q1 = data["Age"].quantile(0.25)
+Q3 = data["Age"].quantile(0.75)
+IQR = Q3 - Q1
+# define bounds
+lower_bound = Q1 - 1.5 * IQR
+upper_bound = Q3 + 1.5 * IQR
+# outliers
+print(data[(data["Age"] < lower_bound) | (data["Age"] > upper_bound)])
+
+## How common are wins among actresses in their 20s compared to older age groups?
+# wins by age groups
+print(age_bins.value_counts().sort_index())
 ```
 
 ---
 ## 5. Linear Regression
 ```python
+## Build a linear regression model to predict age based on index (or year).
+# model creation
+x = data[["Year"]]
+y = data["Age"]
+model = LinearRegression()
+model.fit(x, y)
 
+## What is the slope and intercept of the model?
+ # coef = slope
+print(model.coef_[0])
+ # intercept
+print(model.intercept_)
+
+## What is the R-squared value?
+# Predict and evaluate
+y_pred = model.predict(x)
+print(r2_score(y, y_pred)) 
+
+## Plot the regression line on your scatterplot.
+plt.figure(figsize=(8, 5))
+sns.scatterplot(x="Year", y="Age", data=data_sorted_year)
+plt.plot(data["Year"], y_pred)
+plt.title("Linear Regression: Age vs Year")
+plt.xlabel("Year")
+plt.ylabel("Age")
+plt.legend()
+plt.show()
+# Chart 6
+
+## Plot the residuals. Do they appear normally distributed?
+residuals = y - y_pred
+plt.figure(figsize=(8, 5))
+sns.histplot(residuals, kde=True)
+plt.title("Distribution of Residuals")
+plt.xlabel("Residuals")
+plt.ylabel("Frequency")
+plt.show()
+# Chart 7
 ```
 
 ---
