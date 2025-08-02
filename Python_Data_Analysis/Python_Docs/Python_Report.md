@@ -9,15 +9,15 @@ This project analyzes the ages of female Oscar winners across different years us
 
 ---
 ## 2. Data Description
-- The dataset contains information for 89 female oscar winners, including their weiing their age, name, and movie.
+- The dataset contains information for 89 female Oscar winners, including their age, name, year, and movie.
 - The data was sourced from the CSV data repository at https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html (`oscar_age_female.csv`).
-- GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt
-- Note that I renamed `oscar_age_female.csv` to `oscar_age_female.csv` to differentiate from the modified dataset.
+- GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007: https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt.
+- Note that I renamed `oscar_age_female.csv` to `oscar_age_female_raw.csv` to differentiate from the modified dataset.
 
 ---
 ## 3. Methodology
 - Imported and cleaned the dataset using Pandas.
--Created visualizations such as histograms, bar charts, scatterplots, and boxplots using Matplotlib and Seaborn to explore age distributions and trends.
+- Created visualizations such as histograms, bar charts, scatterplots, and boxplots using Matplotlib and Seaborn to explore age distributions and trends.
 - Built a simple linear regression model with Scikit-learn to analyze the trend of winner age over time.
 
 ---
