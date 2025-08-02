@@ -169,7 +169,17 @@ print(age_bins.value_counts().sort_index())
 
 #--------------------------------------------------------------------------------
 ### 5. Linear Regression
+
 ## Build a linear regression model to predict age based on index (or year).
+# model creation
+x = data[["Year"]]
+y = data["Age"]
+model = LinearRegression()
+model.fit(x, y)
+# slope and intercept
+print(model.coef_[0])
+print(model.intercept_)
+
 ## What is the slope and intercept of the model?
 ## What is the R-squared value?
 ## Plot the regression line on your scatterplot.
