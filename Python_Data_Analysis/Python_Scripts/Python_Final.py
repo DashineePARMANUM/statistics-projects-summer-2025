@@ -6,7 +6,7 @@
 
 #-------------------------------------------------------------------------------
 
-#### code with answers
+#### only code
 
 #-------------------------------------------------------------------------------
 
@@ -27,40 +27,38 @@ data.columns = data.columns.str.strip()
 print(data.head())
 
 ## What are the column names?
-print(data.columns.tolist()) # ['Year', 'Age', 'Name', 'Movie']
+print(data.columns.tolist())
 
 ## How many rows and columns are there?
-print(data.shape[0]) # 89
-print(data.shape[1]) # 4
+print(data.shape[0])
+print(data.shape[1])
 
 ## What data types are in each column?
-print(data.dtypes) # Year=int64; Age=int64; Name=object; Movie=object
+print(data.dtypes)
 
 ## Are there any missing values? If so, where?
-print(data.isnull().sum()) # no missing
+print(data.isnull().sum())
 
 #--------------------------------------------------------------------------------
 ### 2. Summary Statistics
 
 ## What is the average age of Oscar winners in this dataset?
-print(data["Age"].mean()) # 36.12359550561798
+print(data["Age"].mean())
 
 ## Who is the youngest and oldest winner? Include their names and movies.
 youngest = data.loc[data["Age"].idxmin()]
 print("Youngest winner is" + youngest["Name"] + " of age " + str(youngest["Age"]) + " who starred in" + youngest["Movie"] + ".")
-# Youngest winner is Marlee Matlin of age 21 who starred in Children of a Lesser God.
 oldest = data.loc[data["Age"].idxmax()]
 print("Oldest winner is" + oldest["Name"] + " of age " + str(oldest["Age"]) + " who starred in" + oldest["Movie"] + ".")
-# Oldest winner is Jessica Tandy of age 80 who starred in Driving Miss Daisy.
 
 ## How many winners were under 30? Over 50?
-print(len(data[data["Age"] < 30])) # under 30 = 31
-print(len(data[data["Age"] > 50])) # over 50 = 10
+print(len(data[data["Age"] < 30]))
+print(len(data[data["Age"] > 50]))
 
 ## What is the age range, standard deviation, and median age?
-print(data["Age"].max() - data["Age"].min()) # range = 59
-print(data["Age"].std()) # standard deviation = 11.745231357989796
-print(data["Age"].median()) # median = 33.0
+print(data["Age"].max() - data["Age"].min())
+print(data["Age"].std())
+print(data["Age"].median())
 
 ## Are there more winners in their 20s or 30s?
 difference_20_30 = len(data[(data["Age"] >= 20) & (data["Age"] < 30)]) - len(data[(data["Age"] >= 30) & (data["Age"] < 40)])
@@ -70,12 +68,11 @@ elif difference_20_30 < 0:
     print("More winners in their 30s.")
 else:
     print("Equal number of winners in their 20s and 30s.")
-# More winners in their 30s.
 
 #--------------------------------------------------------------------------------
 ### 3. Data Visualization
 
-## Create a histogram of ages - Chart 1
+## Create a histogram of ages.
 plt.figure(figsize=(8, 5))
 sns.histplot(data["Age"])
 plt.title("Histogram of Age")
@@ -83,13 +80,13 @@ plt.xlabel("Age")
 plt.ylabel("Frequency")
 plt.show() 
 
-## Create a boxplot to visualize the distribution of ages - Chart 2
+## Create a boxplot to visualize the distribution of ages.
 plt.figure(figsize=(8, 5))
 sns.boxplot(x=data["Age"])
 plt.title("Boxplot of Age")
 plt.show() 
 
-## Make a scatterplot of age vs index - Chart 3
+## Make a scatterplot of age vs index.
 plt.figure(figsize=(8, 5))
 sns.scatterplot(x=data.index, y=data["Age"])  
 plt.title("Scatter of Age vs Index")
@@ -97,7 +94,7 @@ plt.xlabel("Index")
 plt.ylabel("Age")
 plt.show() 
 
-## Create a bar chart of winners grouped by age ranges (e.g. 20s, 30s, 40s) - Chart 4
+## Create a bar chart of winners grouped by age ranges (e.g. 20s, 30s, 40s).
 age_bins = pd.cut(data["Age"], bins=[20, 30, 40, 50, 60, 70], right=False)
 age_group_counts = age_bins.value_counts().sort_index() 
 plt.figure(figsize=(8, 5))
@@ -119,10 +116,9 @@ plt.title("Age through the years")
 plt.xlabel("Year")
 plt.ylabel("Age")
 plt.show() 
-# slight increase
 
 ## What is the most common age range for winning?
-print(age_group_counts.idxmax()) # [30, 40)
+print(age_group_counts.idxmax())
 
 ## Are there any outliers in the data? Who are they?
 Q1 = data["Age"].quantile(0.25)
@@ -131,12 +127,9 @@ IQR = Q3 - Q1
 lower_bound = Q1 - 1.5 * IQR
 upper_bound = Q3 + 1.5 * IQR
 print(data[(data["Age"] < lower_bound) | (data["Age"] > upper_bound)])
-# Marie Dressler, Katharine Hepburn (2 movies), Geraldine Page, Jessica Tandy, Helen Mirren, Meryl Streep
 
 ## How common are wins among actresses in their 20s compared to older age groups?
 print(age_bins.value_counts().sort_index())
-# [20, 30) = 31; [30, 40) = 34; [40, 50) = 14; [50, 60) = 2; [60, 70) = 6
-# 20s = 2nd most wins -> 30s = 1st most wins
 
 #--------------------------------------------------------------------------------
 ### 5. Linear Regression
@@ -148,14 +141,14 @@ model = LinearRegression()
 model.fit(x, y)
 
 ## What is the slope and intercept of the model?
-print(model.coef_[0]) # 0.09579502894109634
-print(model.intercept_) # -152.78420156622403
+print(model.coef_[0])
+print(model.intercept_)
 
 ## What is the R-squared value?
 y_pred = model.predict(x)
-print(r2_score(y, y_pred)) # 0.044403178998311366
+print(r2_score(y, y_pred))
 
-## Plot the regression line on your scatterplot - Chart 6
+## Plot the regression line on your scatterplot.
 plt.figure(figsize=(8, 5))
 sns.scatterplot(x="Year", y="Age", data=data_sorted_year)
 plt.plot(data["Year"], y_pred)
@@ -165,7 +158,7 @@ plt.ylabel("Age")
 plt.legend()
 plt.show()
 
-## Plot the residuals. Do they appear normally distributed? - Chart 7
+## Plot the residuals. Do they appear normally distributed?
 residuals = y - y_pred
 plt.figure(figsize=(8, 5))
 sns.histplot(residuals, kde=True)
@@ -173,4 +166,3 @@ plt.title("Distribution of Residuals")
 plt.xlabel("Residuals")
 plt.ylabel("Frequency")
 plt.show()
-# not normally distributed = skewed to the left = overestimate age in later years
