@@ -1,5 +1,3 @@
-## IN THE WORKS
-
 #### Python Data Analysis: Female Oscar Winners Dataset
 ## Dashinee Parmanum - dashinee.parmanum@gmail.com - https://www.linkedin.com/in/dashinee-parmanum/
 #### Python Data Analysis: Female Oscar Winners Dataset
