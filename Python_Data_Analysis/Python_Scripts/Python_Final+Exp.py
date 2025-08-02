@@ -199,4 +199,3 @@ plt.xlabel("Residuals")
 plt.ylabel("Frequency")
 plt.show()
 # Chart 7
-# not normally distributed = skewed to the left = overestimate age in later years
