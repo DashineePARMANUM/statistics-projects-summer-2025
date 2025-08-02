@@ -21,7 +21,7 @@ import numpy as np
 ### 1. Import and Inspect
 
 ## Load the dataset.
-# use pandas
+# using pandas(pd)
 data = pd.read_csv(r"C:\Users\dmpar\Documents\GitHub\statistics-projects-summer-2025\Python_Data_Analysis\Python_Datasets\oscar_age_female.csv")
 # strip leading/trailing spaces
 data.columns = data.columns.str.strip()
@@ -83,6 +83,7 @@ elif difference_20_30 < 0:
     print("More winners in their 30s.")
 else:
     print("Equal number of winners in their 20s and 30s.")
+# More winners in their 30s.
 
 #--------------------------------------------------------------------------------
 ### 3. Data Visualization
@@ -140,7 +141,21 @@ plt.show()
 # chart shows slight increase
 
 ## What is the most common age range for winning?
+# Reuse age_bins from earlier
+print(age_group_counts.idxmax()) # [30, 40)
+
 ## Are there any outliers in the data? Who are they?
+# IQR method
+# define quartiles & IQR
+Q1 = data["Age"].quantile(0.25)
+Q3 = data["Age"].quantile(0.75)
+IQR = Q3 - Q1
+# define bounds
+lower_bound = Q1 - 1.5 * IQR
+upper_bound = Q3 + 1.5 * IQR
+# outliers
+print(data[(data["Age"] < lower_bound) | (data["Age"] > upper_bound)])
+
 ## How common are wins among actresses in their 20s compared to older age groups?
 
 #--------------------------------------------------------------------------------
