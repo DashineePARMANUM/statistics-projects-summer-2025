@@ -120,7 +120,7 @@ plt.show()
 age_bins = pd.cut(data["Age"], bins=[20, 30, 40, 50, 60, 70], right=False) # create ranges
 age_group_counts = age_bins.value_counts().sort_index() # count how many for each range (sort_index = ensure logical order)
 plt.figure(figsize=(8, 5))
-age_group_counts.plot(kind='bar') # Create a vertical bar chart
+age_group_counts.plot(kind='bar') # create a vertical bar chart
 plt.title("Bar Chart by Age range")
 plt.xlabel("Age")
 plt.ylabel("Frequency")
@@ -202,4 +202,5 @@ plt.title("Distribution of Residuals")
 plt.xlabel("Residuals")
 plt.ylabel("Frequency")
 plt.show()
+# Chart 7
 # not normally distributed = skewed to the left = overestimate age in later years
