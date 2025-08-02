@@ -22,7 +22,7 @@
 ## 3. Data Visualization
 - Create a histogram of ages.
 - Create a boxplot to visualize the distribution of ages.
-- Make a scatterplot of age vs index (or vs year if available).
+- Make a scatterplot of age vs index.
 - Create a bar chart of winners grouped by age ranges (e.g. 20s, 30s, 40s).
 
 ## 4. Exploratory Questions
