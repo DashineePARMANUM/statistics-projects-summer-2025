@@ -1,8 +1,10 @@
-## IN THE WORKS
-
 # Python Data Analysis: Female Oscar Winners Dataset
 
--
+---
+
+This project demonstrates data analysis, visualization, and statistical modeling in Python using a female oscar winners age and film dataset.
+
+---
 
 ## Files and Folders
 - **`Python_Datasets`**:
