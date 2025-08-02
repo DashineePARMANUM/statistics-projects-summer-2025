@@ -141,7 +141,7 @@ plt.show()
 # chart shows slight increase
 
 ## What is the most common age range for winning?
-# Reuse age_bins from earlier
+# age_bins from earlier
 print(age_group_counts.idxmax()) # [30, 40)
 
 ## Are there any outliers in the data? Who are they?
