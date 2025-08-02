@@ -217,13 +217,13 @@ plt.show()
 ## 7. Challenges and Solutions
 - Cleaning the dataset: Quotation marks and extra spaces caused read issues.
     - Preprocessed in Excel and used `.str.strip()` in Python.
-- Handling outliers
+- Handling outliers.
     - Used IQR method.
 
 ---
 ## 8. Final File
 - The runnable Python script containing all functions/steps (with explanation) used in this report is saved in `Python_Final+Exp.py` (`Python_Scripts`).
-- Any of those files in `Python_Scripts` can be executed directly in Visual Studio Code to reproduce the analyses and insights described above.
+- Any of the files in `Python_Scripts` may also be executed directly in Visual Studio Code to reproduce the analyses and insights described above.
 
 ---
 *Contact: dashinee.parmanum@gmail.com*  
