@@ -188,8 +188,8 @@ print(r2_score(y, y_pred)) #
 
 ## Plot the regression line on your scatterplot.
 plt.figure(figsize=(8, 5))
-sns.scatterplot(x="Year", y="Age", data=data_sorted_year, label="Data")
-plt.plot(data["Year"], y_pred, label="Regression Line")
+sns.scatterplot(x="Year", y="Age", data=data_sorted_year)
+plt.plot(data["Year"], y_pred)
 plt.title("Linear Regression: Age vs Year")
 plt.xlabel("Year")
 plt.ylabel("Age")
@@ -197,7 +197,6 @@ plt.legend()
 plt.show()
 
 ## Plot the residuals. Do they appear normally distributed?
-# Residuals
 residuals = y - y_pred
 plt.figure(figsize=(8, 5))
 sns.histplot(residuals, kde=True)
@@ -205,3 +204,4 @@ plt.title("Distribution of Residuals")
 plt.xlabel("Residuals")
 plt.ylabel("Frequency")
 plt.show()
+# not normally distributed = squewed to the left
