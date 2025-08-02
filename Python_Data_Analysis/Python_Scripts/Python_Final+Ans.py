@@ -101,12 +101,14 @@ plt.title("Histogram of Age")
 plt.xlabel("Age") 
 plt.ylabel("Frequency")
 plt.show()
+# Chart 1
 
 ## Create a boxplot to visualize the distribution of ages.
 plt.figure(figsize=(8, 5))
 sns.boxplot(x=data["Age"]) # create boxplot
 plt.title("Boxplot of Age")
 plt.show() 
+# Chart 2
 
 ## Make a scatterplot of age vs index (or vs year if available).
 plt.figure(figsize=(8, 5))
@@ -115,16 +117,18 @@ plt.title("Scatter of Age vs Index")
 plt.xlabel("Age")
 plt.ylabel("Frequency")
 plt.show() 
+# Chart 3
 
 ## Create a bar chart of winners grouped by age ranges (e.g. 20s, 30s, 40s).
 age_bins = pd.cut(data["Age"], bins=[20, 30, 40, 50, 60, 70], right=False) # create ranges
-age_group_counts = age_bins.value_counts().sort_index() # count how many for each range + sort_index = ensure logical order
+age_group_counts = age_bins.value_counts().sort_index() # count how many for each range (sort_index = ensure logical order)
 plt.figure(figsize=(8, 5))
 age_group_counts.plot(kind='bar') # Create a vertical bar chart
 plt.title("Histogram by Age range")
 plt.xlabel("Age")
 plt.ylabel("Frequency")
 plt.show()
+# Chart 4
 
 #--------------------------------------------------------------------------------
 ### 4. Exploratory Questions
@@ -138,7 +142,7 @@ plt.title("Age through the years")
 plt.xlabel("Year")
 plt.ylabel("Age")
 plt.show() 
-# chart shows slight increase
+# Chart 5 shows slight increase
 
 ## What is the most common age range for winning?
 # age_bins from earlier
