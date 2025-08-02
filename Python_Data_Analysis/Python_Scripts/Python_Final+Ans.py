@@ -182,5 +182,26 @@ print(model.coef_[0]) # 0.09579502894109634
 print(model.intercept_) # -152.78420156622403
 
 ## What is the R-squared value?
+# Predict and evaluate
+y_pred = model.predict(x)
+print(r2_score(y, y_pred)) # 
+
 ## Plot the regression line on your scatterplot.
+plt.figure(figsize=(8, 5))
+sns.scatterplot(x="Year", y="Age", data=data_sorted_year, label="Data")
+plt.plot(data["Year"], y_pred, label="Regression Line")
+plt.title("Linear Regression: Age vs Year")
+plt.xlabel("Year")
+plt.ylabel("Age")
+plt.legend()
+plt.show()
+
 ## Plot the residuals. Do they appear normally distributed?
+# Residuals
+residuals = y - y_pred
+plt.figure(figsize=(8, 5))
+sns.histplot(residuals, kde=True)
+plt.title("Distribution of Residuals")
+plt.xlabel("Residuals")
+plt.ylabel("Frequency")
+plt.show()
