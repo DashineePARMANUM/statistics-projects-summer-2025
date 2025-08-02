@@ -2,7 +2,7 @@
 
 ---
 
-This project demonstrates data analysis, visualization, and statistical modeling in Python using a female oscar winners age and film dataset.
+This project demonstrates data analysis, visualization, and simple statistical modeling in Python using a female oscar winners age and film dataset.
 
 ---
 
@@ -22,10 +22,19 @@ This project demonstrates data analysis, visualization, and statistical modeling
 - **`Python_Images`** = Screenshots/Charts
 
 ## Key Features
-- 
+- Data import for reliable analysis.
+- Summary statistics and exploratory analysis.
+- Visualization: histograms, boxplots, scatterplots, bar charts, and trend lines.
+- Simple linear regression modeling.
+- Residual analysis for regression model assessment.
 
 ## Skills Demonstrated
-- 
+- Exploratory Data Analysis (EDA) with descriptive statistics.
+- Data visualization with Matplotlib and Seaborn.
+- Statistical analysis including outlier detection using IQR.
+- Application of linear regression.
+- Interpretation of regression coefficients and model fit metrics (R²).
+- Presentation of results with clear code commenting and output annotation.
 
 ## Usage
 - Download `oscar_age_female.csv` and place it in your working directory.
