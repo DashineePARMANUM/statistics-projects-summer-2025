@@ -1,19 +1,20 @@
 ## IN THE WORKS
 
-# Python Data Analysis: -
+# Python Data Analysis: Female Oscar Winners Dataset
 
 -
 
 ## Files and Folders
 - **`Python_Datasets`**:
-  - `oscar_age_female.csv` = Original raw dataset
+  - `oscar_age_female_raw.csv` = Original raw dataset
+  - `oscar_age_female.csv` = Modified dataset used for analysis
 - **`Python_Docs`**:
   - `Python_Report.md` = Detailed project overview and insights
   - `Python_Process.md` = Step-by-step methodology and formula explanations
   - `Python_Exercises.md` = Exercises/Questions
 - **`Python_Scripts`**:
-  - `Python_Final.R` = code with explanation
-  - `Python_Final+Ans.R` = code with output
+  - `Python_Final.py` = code with explanation
+  - `Python_Final+Ans.py` = code with output
 - **`Python_Images`** = Screenshots
 
 ## Key Features
@@ -25,7 +26,6 @@
 ## Usage
 - Download `oscar_age_female.csv` and place it in your working directory.
 - Run `Python_Final.py` or `Python_Final+Ans.py` scripts (`Python_Scripts`).
-- Ensure `oscar_age_female.csv` is loaded.
 - Review the detailed analysis and key insights in `Python_Report.md` (`Python_Docs`).
 
 ## Data Source and License
