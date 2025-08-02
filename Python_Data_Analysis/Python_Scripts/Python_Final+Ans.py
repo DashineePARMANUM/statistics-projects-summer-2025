@@ -161,7 +161,7 @@ print(data[(data["Age"] < lower_bound) | (data["Age"] > upper_bound)])
 # wins by age groups
 print(age_bins.value_counts().sort_index())
 # [20, 30) = 31; [30, 40) = 34; [40, 50) = 14; [50, 60) = 2; [60, 70) = 6
-# 20s = 2nd most wins with 30s 1st most wins
+# 20s = 2nd most wins -> 30s = 1st most wins
 
 #--------------------------------------------------------------------------------
 ### 5. Linear Regression
