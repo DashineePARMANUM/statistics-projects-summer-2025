@@ -176,11 +176,11 @@ x = data[["Year"]]
 y = data["Age"]
 model = LinearRegression()
 model.fit(x, y)
-# slope and intercept
-print(model.coef_[0])
-print(model.intercept_)
 
 ## What is the slope and intercept of the model?
+print(model.coef_[0]) # 0.09579502894109634
+print(model.intercept_) # -152.78420156622403
+
 ## What is the R-squared value?
 ## Plot the regression line on your scatterplot.
 ## Plot the residuals. Do they appear normally distributed?
