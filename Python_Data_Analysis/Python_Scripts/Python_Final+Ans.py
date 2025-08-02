@@ -146,8 +146,8 @@ model = LinearRegression()
 model.fit(x, y)
 
 ## What is the slope and intercept of the model?
-print(model.coef_[0]) # 0.09579502894109634
-print(model.intercept_) # -152.78420156622403
+print(model.coef_[0]) # slope = 0.09579502894109634
+print(model.intercept_) # intercept = -152.78420156622403
 
 ## What is the R-squared value?
 y_pred = model.predict(x)
