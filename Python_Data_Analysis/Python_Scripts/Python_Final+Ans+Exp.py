@@ -4,7 +4,7 @@
 
 #-------------------------------------------------------------------------------
 
-#### code with output and answers
+#### code with explantion and answers
 
 #-------------------------------------------------------------------------------
 
@@ -175,7 +175,9 @@ model = LinearRegression()
 model.fit(x, y)
 
 ## What is the slope and intercept of the model?
+ # coef = slope
 print(model.coef_[0]) # 0.09579502894109634
+ # intercept
 print(model.intercept_) # -152.78420156622403
 
 ## What is the R-squared value?
