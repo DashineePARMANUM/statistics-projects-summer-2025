@@ -28,49 +28,47 @@ data.columns = data.columns.str.strip()
 print(data.head())
 
 ## What are the column names?
-print(data.columns.tolist()) # ['Year', 'Age', 'Name', 'Movie']
+print(data.columns.tolist())
 
 ## How many rows and columns are there?
 # rows
-print(data.shape[0]) # 89
+print(data.shape[0])
 # columns
-print(data.shape[1]) # 4
+print(data.shape[1])
 
 ## What data types are in each column?
-print(data.dtypes) # Year=int64; Age=int64; Name=object; Movie=object
+print(data.dtypes)
 
 ## Are there any missing values? If so, where?
-print(data.isnull().sum()) # no missing
+print(data.isnull().sum())
 
 #--------------------------------------------------------------------------------
 ### 2. Summary Statistics
 
 ## What is the average age of Oscar winners in this dataset?
-print(data["Age"].mean()) # 36.12359550561798
+print(data["Age"].mean())
 
 ## Who is the youngest and oldest winner? Include their names and movies.
 # youngest
 youngest = data.loc[data["Age"].idxmin()]
 print("Youngest winner is" + youngest["Name"] + " of age " + str(youngest["Age"]) + " who starred in" + youngest["Movie"] + ".")
-# Youngest winner is Marlee Matlin of age 21 who starred in Children of a Lesser God.
 # oldest
 oldest = data.loc[data["Age"].idxmax()]
 print("Oldest winner is" + oldest["Name"] + " of age " + str(oldest["Age"]) + " who starred in" + oldest["Movie"] + ".")
-# Oldest winner is Jessica Tandy of age 80 who starred in Driving Miss Daisy.
 
 ## How many winners were under 30? Over 50?
 # under 30
-print(len(data[data["Age"] < 30])) # 31
+print(len(data[data["Age"] < 30])) 
 # over 50
-print(len(data[data["Age"] > 50])) # 10
+print(len(data[data["Age"] > 50]))
 
 ## What is the age range, standard deviation, and median age?
 # range
-print(data["Age"].max() - data["Age"].min()) # 59
+print(data["Age"].max() - data["Age"].min())
 # standard deviation
-print(data["Age"].std()) # 11.745231357989796
+print(data["Age"].std())
 # median
-print(data["Age"].median()) # 33.0
+print(data["Age"].median())
 
 ## Are there more winners in their 20s or 30s?
 difference_20_30 = len(data[(data["Age"] >= 20) & (data["Age"] < 30)]) - len(data[(data["Age"] >= 30) & (data["Age"] < 40)])
@@ -80,7 +78,6 @@ elif difference_20_30 < 0:
     print("More winners in their 30s.")
 else:
     print("Equal number of winners in their 20s and 30s.")
-# More winners in their 30s.
 
 #--------------------------------------------------------------------------------
 ### 3. Data Visualization
@@ -139,11 +136,11 @@ plt.title("Age through the years")
 plt.xlabel("Year")
 plt.ylabel("Age")
 plt.show() 
-# Chart 5 shows slight increase
+# Chart 5
 
 ## What is the most common age range for winning?
 # age_bins from earlier
-print(age_group_counts.idxmax()) # [30, 40)
+print(age_group_counts.idxmax())
 
 ## Are there any outliers in the data? Who are they?
 # IQR method
@@ -156,13 +153,10 @@ lower_bound = Q1 - 1.5 * IQR
 upper_bound = Q3 + 1.5 * IQR
 # outliers
 print(data[(data["Age"] < lower_bound) | (data["Age"] > upper_bound)])
-# Marie Dressler, Katharine Hepburn (2 movies), Geraldine Page, Jessica Tandy, Helen Mirren, Meryl Streep
 
 ## How common are wins among actresses in their 20s compared to older age groups?
 # wins by age groups
 print(age_bins.value_counts().sort_index())
-# [20, 30) = 31; [30, 40) = 34; [40, 50) = 14; [50, 60) = 2; [60, 70) = 6
-# 20s = 2nd most wins -> 30s = 1st most wins
 
 #--------------------------------------------------------------------------------
 ### 5. Linear Regression
@@ -175,13 +169,15 @@ model = LinearRegression()
 model.fit(x, y)
 
 ## What is the slope and intercept of the model?
-print(model.coef_[0]) # 0.09579502894109634
-print(model.intercept_) # -152.78420156622403
+ # coef = slope
+print(model.coef_[0])
+ # intercept
+print(model.intercept_)
 
 ## What is the R-squared value?
 # Predict and evaluate
 y_pred = model.predict(x)
-print(r2_score(y, y_pred)) # 0.044403178998311366
+print(r2_score(y, y_pred)) 
 
 ## Plot the regression line on your scatterplot.
 plt.figure(figsize=(8, 5))
