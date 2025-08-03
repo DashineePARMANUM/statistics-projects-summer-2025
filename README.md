@@ -7,7 +7,7 @@ Welcome to my self-directed summer 2025 portfolio of statistics and data analysi
 As a Statistics undergraduate, I wanted to complement my university coursework by focusing on real-world data projects and sharpening industry-relevant skills. 
 This summer, I completed multiple mini projects that demonstrate data cleaning, analysis, visualization, and reporting.
 
-Even after completing them, I’m continually refining these projects, finding small mistakes, rewording explanations, and tweaking code in an effort to perfect my work and deepen my understanding.
+Even after completing them, I continue to refine these projects, finding small mistakes, rewording explanations, and tweaking code in an effort to perfect my work and deepen my understanding.
 
 ## Projects Overview
 
@@ -30,9 +30,9 @@ Each folder contains:
 
 ## How to Use This Repo
 
-- Browse by folder to explore individual projects
-- Run the scripts in the corresponding environments for reproducibility (Postgre - PgAdmin/Python/R)
-- Review Excel and Power BI files using the respective software
+- Browse by folder to explore individual projects.
+- Run the scripts in the corresponding environments for reproducibility.
+- Review Excel and Power BI files using the respective software.
 - Feel free to clone or fork the repo to try the projects yourself :)
 
 ## License
