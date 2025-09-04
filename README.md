@@ -14,8 +14,8 @@ Even after completing them, I continue to refine these projects, finding small m
 | Project                                   | Dataset                       |
 |-------------------------------------------|-------------------------------|
 | [**Excel** Data Cleaning and Analysis](https://github.com/DashineePARMANUM/statistics-projects-summer-2025/tree/main/Excel_Data_Cleaning_and_Analysis) | Home Sales                    |
-| **SQL** Data Querying                     | Major League Baseball Players |
-| **Power BI** Visualization                | Grades                        |
+| [**SQL** Data Querying](https://github.com/DashineePARMANUM/statistics-projects-summer-2025/tree/main/SQL_Data_Querying) | Major League Baseball Players |
+| [**Power BI** Visualization](https://github.com/DashineePARMANUM/statistics-projects-summer-2025/tree/main/PowerBI_Visualizations) | Grades                        |
 | **R** Statistical Modeling                | College Freshmen              |
 | **Python** Data Analysis                  | Female Oscar Winners          |
 
