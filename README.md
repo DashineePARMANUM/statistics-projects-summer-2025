@@ -46,6 +46,5 @@ Thank you for visiting! Feel free to reach out if you have any questions or feed
 ---
 
 *Dashinee Parmanum*  
-*Honours Undergraduate Statistics - uOttawa*  
 *Contact: dashinee.parmanum@gmail.com*  
 *LinkedIn: https://www.linkedin.com/in/dashinee-parmanum/*
